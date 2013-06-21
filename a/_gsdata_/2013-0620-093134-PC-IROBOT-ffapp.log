@@ -1,0 +1,16 @@
+2013-06-20 09:31:34: ----- ：任务 'ffapp'：计算机 'PC-IROBOT' 上的分析操作已由 On File Change 1st Full Analyze 所启动 (GoodSync v 9.5.0.5) -----
+2013-06-20 09:31:34: F:\web\lianzai\ffapp\a =NoPropDels=> ftp://119.164.219.64:2010/ffapp.github.com/a, UberUnlockedUpload
+2013-06-20 09:31:34: 左侧：文件： 80 (已排除 )。文件夹： 43 (已排除 1)。 F: NTFS, 可用空间：22.0 GB，总计空间：53.1 GB
+2013-06-20 09:31:36: 右侧：文件： 79 (已排除 )。文件夹： 42 (已排除 1)。 FTP: (vsFTPd 2.2.2)
+2013-06-20 09:31:36: 变更：3， 冲突：， 复制时间：， 复制状态：/， 错误： 
+2013-06-20 09:31:36: Left to Right: Copy File: 3 
+2013-06-20 09:31:36: ----- ：分析已结束。 历时 00:00:02， 速度： 62 个文件/秒 -----
+2013-06-20 09:31:36: ===== ：任务 'ffapp'：同步已被 On File Change 1st Full Analyze 所启动，位于计算机 'PC-IROBOT' =====
+2013-06-20 09:31:36: F:\web\lianzai\ffapp\a =NoPropDels=> ftp://119.164.219.64:2010/ffapp.github.com/a, UberUnlockedUpload
+2013-06-20 09:31:36: 创建文件夹 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0620'
+2013-06-20 09:31:36: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\8.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0619/8.html'
+2013-06-20 09:31:37: 新建复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\10.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0620/10.html'
+2013-06-20 09:31:37: 保存状态文件 ftp://119.164.219.64:2010/ffapp.github.com/a/_gsdata_/_file_state_v4._gs
+2013-06-20 09:31:37: 项目同步未必： 3，错误： 
+2013-06-20 09:31:37: ===== ：同步完毕。时间：00:00:01，速度： 73.0 KB/s (64.8 KB/s) =====
+2013-06-20 09:31:37: 

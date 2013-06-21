@@ -1,0 +1,29 @@
+2013-06-19 14:45:26: ----- ：任务 'ffapp'：计算机 'PC-IROBOT' 上的分析操作已由 On File Change Incremental 所启动 (GoodSync v 9.5.0.5) -----
+2013-06-19 14:45:26: F:\web\lianzai\ffapp\a =NoPropDels=> ftp://119.164.219.64:2010/ffapp.github.com/a, UberUnlockedUpload
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\develop\2013\0619\9.html
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\6.html
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\8.html
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\7.html
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\4.html
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\3.html
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\2.html
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\1.html
+2013-06-19 14:45:26: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0311\5.html
+2013-06-19 14:45:28: 变更：9， 冲突：， 复制时间：， 复制状态：/， 错误： 
+2013-06-19 14:45:28: Left to Right: Copy File: 9 
+2013-06-19 14:45:28: ----- ：分析已结束。 历时 00:00:02， 速度： 61 个文件/秒 -----
+2013-06-19 14:45:28: ===== ：任务 'ffapp'：同步已被 On File Change Incremental 所启动，位于计算机 'PC-IROBOT' =====
+2013-06-19 14:45:28: F:\web\lianzai\ffapp\a =NoPropDels=> ftp://119.164.219.64:2010/ffapp.github.com/a, UberUnlockedUpload
+2013-06-19 14:45:29: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\2013\0619\9.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/2013/0619/9.html'
+2013-06-19 14:45:30: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\1.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/1.html'
+2013-06-19 14:45:30: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\2.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/2.html'
+2013-06-19 14:45:31: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\3.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/3.html'
+2013-06-19 14:45:32: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\4.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/4.html'
+2013-06-19 14:45:32: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\6.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/6.html'
+2013-06-19 14:45:33: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0311\5.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0311/5.html'
+2013-06-19 14:45:33: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\7.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0619/7.html'
+2013-06-19 14:45:33: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\8.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0619/8.html'
+2013-06-19 14:45:33: 保存状态文件 ftp://119.164.219.64:2010/ffapp.github.com/a/_gsdata_/_file_state_v4._gs
+2013-06-19 14:45:34: 项目同步未必： 9，错误： 
+2013-06-19 14:45:34: ===== ：同步完毕。时间：00:00:06，速度： 74.8 KB/s (118 KB/s) =====
+2013-06-19 14:45:34: 

@@ -1,0 +1,37 @@
+2013-06-20 09:43:45: ----- ：任务 'ffapp'：计算机 'PC-IROBOT' 上的分析操作已由 On File Change Incremental 所启动 (GoodSync v 9.5.0.5) -----
+2013-06-20 09:43:45: F:\web\lianzai\ffapp\a =NoPropDels=> ftp://119.164.219.64:2010/ffapp.github.com/a, UberUnlockedUpload
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\8.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0311\5.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\6.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\3.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\13.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\10.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\7.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\2.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\12.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\4.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\1.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\11.html
+2013-06-20 09:43:45: Change in: F:\web\lianzai\ffapp\a\all\develop\2013\0619\9.html
+2013-06-20 09:43:46: 变更：13， 冲突：， 复制时间：， 复制状态：/， 错误： 
+2013-06-20 09:43:46: Left to Right: Copy File: 13 
+2013-06-20 09:43:46: ----- ：分析已结束。 历时 00:00:01， 速度： 127 个文件/秒 -----
+2013-06-20 09:43:46: ===== ：任务 'ffapp'：同步已被 On File Change Incremental 所启动，位于计算机 'PC-IROBOT' =====
+2013-06-20 09:43:46: F:\web\lianzai\ffapp\a =NoPropDels=> ftp://119.164.219.64:2010/ffapp.github.com/a, UberUnlockedUpload
+2013-06-20 09:43:47: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\2013\0619\9.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/2013/0619/9.html'
+2013-06-20 09:43:47: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\1.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/1.html'
+2013-06-20 09:43:47: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\2.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/2.html'
+2013-06-20 09:43:47: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\3.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/3.html'
+2013-06-20 09:43:47: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\4.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/4.html'
+2013-06-20 09:43:47: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0311\6.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0311/6.html'
+2013-06-20 09:43:48: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0311\5.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0311/5.html'
+2013-06-20 09:43:48: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\7.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0619/7.html'
+2013-06-20 09:43:48: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0619\8.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0619/8.html'
+2013-06-20 09:43:48: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\10.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0620/10.html'
+2013-06-20 09:43:48: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\11.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0620/11.html'
+2013-06-20 09:43:49: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\12.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0620/12.html'
+2013-06-20 09:43:49: 覆盖复制 'F:\web\lianzai\ffapp\a\all\ffzixun\2013\0620\13.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/ffzixun/2013/0620/13.html'
+2013-06-20 09:43:49: 保存状态文件 ftp://119.164.219.64:2010/ffapp.github.com/a/_gsdata_/_file_state_v4._gs
+2013-06-20 09:43:49: 项目同步未必： 13，错误： 
+2013-06-20 09:43:49: ===== ：同步完毕。时间：00:00:03，速度： 136 KB/s (191 KB/s) =====
+2013-06-20 09:43:49: 

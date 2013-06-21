@@ -1,0 +1,13 @@
+2013-06-20 11:18:01: ----- ：任务 'ffapp'：计算机 'PC-IROBOT' 上的分析操作已由 On File Change Incremental 所启动 (GoodSync v 9.5.0.5) -----
+2013-06-20 11:18:01: F:\web\lianzai\ffapp\a =NoPropDels=> ftp://119.164.219.64:2010/ffapp.github.com/a, UberUnlockedUpload
+2013-06-20 11:18:01: Change in: F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0620\1616.html
+2013-06-20 11:18:01: 变更：1， 冲突：， 复制时间：， 复制状态：/， 错误： 
+2013-06-20 11:18:01: Left to Right: Copy File: 1 
+2013-06-20 11:18:01: ----- ：分析已结束。 历时 00:00:02， 速度： 66 个文件/秒 -----
+2013-06-20 11:18:01: ===== ：任务 'ffapp'：同步已被 On File Change Incremental 所启动，位于计算机 'PC-IROBOT' =====
+2013-06-20 11:18:01: F:\web\lianzai\ffapp\a =NoPropDels=> ftp://119.164.219.64:2010/ffapp.github.com/a, UberUnlockedUpload
+2013-06-20 11:18:01: 覆盖复制 'F:\web\lianzai\ffapp\a\all\develop\ziyuan\2013\0620\1616.html' -> 'ftp://119.164.219.64:2010/ffapp.github.com/a/all/develop/ziyuan/2013/0620/1616.html'
+2013-06-20 11:18:01: 保存状态文件 ftp://119.164.219.64:2010/ffapp.github.com/a/_gsdata_/_file_state_v4._gs
+2013-06-20 11:18:01: 项目同步未必： 1，错误： 
+2013-06-20 11:18:01: ===== ：同步完毕。时间：00:00:00，速度： 88.1 KB/s (63.4 KB/s) =====
+2013-06-20 11:18:01: 
