@@ -1,0 +1,1 @@
+﻿document.write("<div style=\"padding:3px 0 0 25px;\"><a href=\"http://member.5sing.com/pay/vip.aspx\" target=\"_blank\"><font color=\"#0089F8\">10元/月升级至VIP，可免费下载歌曲及伴奏，推荐歌曲到频道首页，点此立即升级</font></a></div>");

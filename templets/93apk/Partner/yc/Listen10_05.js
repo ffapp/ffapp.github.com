@@ -1,0 +1,1 @@
+﻿document.write('<iframe src=\"http://open.qzone.qq.com/like?url=http%3A%2F%2Fuser.qzone.qq.com%2F1495014072&type=button_num&width=150&height=30\" allowtransparency=\"true\" scrolling=\"no\" border=\"0\" frameborder=\"0\" style=\"width:150px;height:30px;border:none;overflow:hidden;padding: 15px 0 0;\"></iframe>')

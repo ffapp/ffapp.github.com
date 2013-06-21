@@ -1,0 +1,1 @@
+﻿document.write('<ul><li><a href="http://fc.5sing.com/tjsong/more_1.shtml">编辑推荐</a></li><li><a href="http://www.5sing.com/tj/kind_5_1.shtml">网友推荐</a></li><li><a href="http://fc.5sing.com/kindlist/kind_8_1.shtml">最新翻唱</a></li><li><a href="http://fc.5sing.com/kindlist/kind_9_1.shtml">我爱填词</a></li><li><a href="http://fc.5sing.com/kindlist/kind_3_1.shtml">歪唱搞笑</a></li></ul>')

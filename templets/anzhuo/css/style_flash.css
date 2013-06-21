@@ -1,0 +1,52 @@
+#content1 {
+	margin:20px auto;
+	padding: 10px;
+	background: #FFF;	
+	border: 1px solid #CCC;
+}
+		#featured-wrap {
+			position: relative;
+			width: 600px;
+			margin: 0 auto;
+		}
+
+		#featured-content {
+			overflow: hidden;	
+		}
+
+		#featured-content a {
+			float: left;	
+			margin: 0 5px;
+		}
+
+		#featured-content a img {
+			border: 1px solid #888;	
+			padding: 3px;
+			vertical-align: top;
+		}
+
+		#featured-preview {
+			position: absolute;
+			top: -64px;
+			left: 0;
+			z-index: 90;
+			display: none;
+			width: 320px;
+			height: 480px;	
+		}
+
+		#featured-overlay {
+			position: absolute;
+			top: 0;
+			left: 0;
+			z-index: 100;
+		}
+
+		#featured-overlay div {
+			float: left;
+			cursor: e-resize;
+			background: red;
+			display: none;
+			width: 148px;
+			height: 196px;
+		}

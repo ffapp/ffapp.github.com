@@ -1,0 +1,17 @@
+2013-06-19 14:23:38: ----- ：任务 'uploads'：计算机 'PC-IROBOT' 上的分析操作已由 On File Change Incremental 所启动 (GoodSync v 9.5.0.5) -----
+2013-06-19 14:23:38: F:\web\lianzai\ffapp\uploads <-> ftp://119.164.219.64:2010/ffapp.github.com/uploads, UberUnlockedUpload
+2013-06-19 14:23:38: Change in: F:\web\lianzai\ffapp\uploads\allimg\130619\1423291207-0.jpg
+2013-06-19 14:23:38: Change in: F:\web\lianzai\ffapp\uploads\allimg\130619\1423293039-1.jpg
+2013-06-19 14:23:38: Change in: F:\web\lianzai\ffapp\uploads\allimg\130619\1423291207-0-lp.jpg
+2013-06-19 14:23:39: 变更：3， 冲突：， 复制时间：， 复制状态：/， 错误： 
+2013-06-19 14:23:39: Left to Right: Copy File: 3 
+2013-06-19 14:23:39: ----- ：分析已结束。 历时 00:00:01， 速度： 21 个文件/秒 -----
+2013-06-19 14:23:39: ===== ：任务 'uploads'：同步已被 On File Change Incremental 所启动，位于计算机 'PC-IROBOT' =====
+2013-06-19 14:23:39: F:\web\lianzai\ffapp\uploads <-> ftp://119.164.219.64:2010/ffapp.github.com/uploads, UberUnlockedUpload
+2013-06-19 14:23:39: 新建复制 'F:\web\lianzai\ffapp\uploads\allimg\130619\1423291207-0-lp.jpg' -> 'ftp://119.164.219.64:2010/ffapp.github.com/uploads/allimg/130619/1423291207-0-lp.jpg'
+2013-06-19 14:23:41: 新建复制 'F:\web\lianzai\ffapp\uploads\allimg\130619\1423291207-0.jpg' -> 'ftp://119.164.219.64:2010/ffapp.github.com/uploads/allimg/130619/1423291207-0.jpg'
+2013-06-19 14:23:43: 新建复制 'F:\web\lianzai\ffapp\uploads\allimg\130619\1423293039-1.jpg' -> 'ftp://119.164.219.64:2010/ffapp.github.com/uploads/allimg/130619/1423293039-1.jpg'
+2013-06-19 14:23:43: 保存状态文件 ftp://119.164.219.64:2010/ffapp.github.com/uploads/_gsdata_/_file_state_v4._gs
+2013-06-19 14:23:43: 项目同步未必： 3，错误： 
+2013-06-19 14:23:43: ===== ：同步完毕。时间：00:00:04，速度： 40.2 KB/s (228 KB/s) =====
+2013-06-19 14:23:43: 

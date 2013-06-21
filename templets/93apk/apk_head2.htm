@@ -1,0 +1,52 @@
+<div class="header">
+	<div class="top">
+			<div class="t_nav">
+				<ul>
+					<li><a href="http://www.yes-tom.com/tags.php">TAG标签</a>| </li>
+					<li><a href="{dede:global.cfg_dataurl/}/rssmap.html">RSS订阅</a>| </li>
+					<li><a href="/93apk/fuwu.html" target="_blank">帮助中心</a> | </li>
+					<li><a style="CURSOR: hand" onClick="window.external.addFavorite('http://www.93apk.com','安卓应用市场')" >加入收藏</a>| </li>
+					<li><a href="#" onClick="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.93apk.com');">设为首页</a> | </li>
+					
+				</ul>
+			</div>
+			<div class="lg">
+				<ul id="UserInfo">
+					
+				</ul>
+			</div>
+			<div class="ser">
+			<form  name="formsearch" action="{dede:global.cfg_cmsurl/}/plus/search.php" method="post" target="_blank">
+				  <input name="q" class="ser_value" type="text" id="search-keyword"  />
+				  <input class="sub" type="submit" id="btSearch" value="提交" />
+			</form>
+
+		  </div>
+	</div>
+	<div class="m_nav">
+		<ul class="nav_lt">
+			<li><a href='{dede:global.cfg_cmsurl/}/'><span>网站首页</span></a></li>
+			{dede:channel type='top' row='10' currentstyle="<li class='hover'><a href='~typelink~' ~rel~><span>~typename~</span></a></li>"}
+			<li><a href='[field:typeurl/]' [field:rel/]><span>[field:typename/]</span></a></li>
+			{/dede:channel}
+			<li><a href='http://www.5irom.com/forum.php' target="_blank"><span>玩机论坛</span></a></li>
+		</ul>
+			
+		<div class="w_up">
+			<a href="/member/index.php" class="up_go" title="上传作品">提交应用</a>
+		</div>
+	</div>
+	<div class="top_d">
+		<div class="hot_s">
+			<em class="posi">当前位置：</em>{dede:field name='position'/}
+		</div>
+		<div class="post">
+			<!--<div class="fr po_up"><a href="#" target="_blank" title="发布大喇叭">发布大喇叭</a></div>-->
+			<div class="fr">
+				<script language="javascript" type="text/javascript" src="../../www.5sing.com/dalaba.aspx.html"></script>
+			</div>
+		</div>
+	</div>
+	<span class="t_bg"></span>
+</div>
+<div align="center">{dede:myad name='UCBrowser'/}</div>

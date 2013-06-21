@@ -1,0 +1,46 @@
+<div class="hd">
+	<div class="logo FL"><h1><a href="http://www.www.yes-tom.com/"><img src="{dede:global.cfg_templets_skin/}/images/logo.png" alt="织梦模板之家-专注织梦模板设计制作！" /></a></h1></div>
+    <div class="hd_ad FR">{dede:myad name='468x60_tupian'/}</div>
+</div>
+<div class="nav">
+	<div class="nav_hot"><img src="{dede:global.cfg_templets_skin/}/images/hot.jpg" alt="热门" /></div>
+    <div id="navMenu" class="FL">
+    	<ul>
+      	<li><a href='{dede:global.cfg_cmsurl/}/'>主页</a></li>
+      	{dede:channel type='top' row='10' currentstyle="<li class='hover'><a href='~typelink~' ~rel~>~typename~</a></li>"}
+      	<li><a href='[field:typeurl/]' [field:rel/]>[field:typename/]</a></li>
+      	{/dede:channel}
+    	</ul>
+    </div>
+    <div class="hd_search FR">
+    	<form action="/plus/search.php" name="formsearch">
+           <input type="hidden" name="kwtype" value="0" />
+           <!--<input name="keyword" type="text" class="search-keyword" id="search-keyword" />-->
+           <input name="q" type="text" class="search-keyword FL" id="search-keyword" value="在这里搜索..." onfocus="if(this.value=='在这里搜索...'){this.value='';}"  onblur="if(this.value==''){this.value='在这里搜索...';}" />
+<!--           <select name="searchtype" class="search-option" id="search-option">
+               <option value="titlekeyword" selected='1'>智能模糊搜索</option>
+               <option value="title">仅搜索标题</option>
+           </select>-->
+          <button type="submit" class="search-submit FL"><!--搜索--></button>
+          </form>
+    </div>
+</div>
+<!-- /header -->
+<div class="M1">
+	<div class="M1_banner">
+    	<div class="M1_fla FL">
+            <div id="KinSlideshow" style="visibility:hidden;">
+            {dede:arclist flag='f' row='5' titlelen='46' addfields='flash' channelid=3 typeid='2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,3'}
+                <a href="[field:arcurl/]" target="_blank"><img src="[field:flash/]" alt="[field:title function='html2text(@me)'/]"/></a>
+            {/dede:arclist}
+            </div>
+        </div>
+        <ul class="M1_tt FL">
+        	{dede:arclist flag='h' limit='0,10' infolen='230' typeid='2,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,3'}
+                <li><a href="[field:arcurl/]" target="_blank"><img src='[field:picname /]' alt="[field:title/]"></a></li>
+            {/dede:arclist}
+        </ul>
+    </div>
+</div>
+
+

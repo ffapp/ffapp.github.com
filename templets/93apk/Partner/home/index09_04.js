@@ -1,0 +1,1 @@
+﻿document.write("<a href=\"http://www.5sing.com/about/contact.html\" target=\"_blank\"><img src=\"http://static.5sing.com/images/partner/images/5singhezuo.jpg\" border=\"0\"></a>");

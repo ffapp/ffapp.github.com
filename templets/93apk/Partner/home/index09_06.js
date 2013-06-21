@@ -1,0 +1,1 @@
+﻿document.write("<a href=\"http://member.5sing.com/Hp/view_cert.aspx\r\n\" target=\"_blank\"><img src=\"http://static.5sing.com/images/partner/images/shi-1.jpg\" border=\"0\"></a>");

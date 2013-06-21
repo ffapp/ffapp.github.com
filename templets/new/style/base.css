@@ -1,0 +1,74 @@
+﻿body{ font-family: "Arial", "Verdana", "Helvetica", "Sans-Serif","微软雅黑"; font-size:12px; background-color:White; margin:0px; padding:0px;}
+form{ margin:0px; padding:0px;}
+a{text-decoration:none; cursor:pointer; color:#1d4665;}
+a:hover{color:Red;text-decoration:none;}
+img{ border-width:0px;}
+
+.globalbody{ width:100%; height:100%; background-image:url(Images/bodybg.png);}
+.globalheard{ width:100%; height:111px; background-image:url(Images/topbg.jpg); background-position:center; position:absolute; top:0px; left:0px; z-index:-1;}
+.globalnav{ width:100%; height:41px; background-image:url(Images/navbg.png); background-repeat:repeat-x;position:absolute; top:111px; left:0px; z-index:-1;}
+.globalnav2{ width:100%; height:50px; background-image:url(Images/nav2bg.png); background-repeat:repeat-x;position:absolute; top:152px; left:0px; z-index:-1;}
+
+/** 头部样式 **/
+#webtop{ width:990px; margin-left:auto; margin-right:auto;}
+#heard{ width:990px; height:111px; overflow:hidden;}
+#logo{ width:230px; height:111px; float:left; cursor:pointer; background-image:url(Images/logo.png); background-repeat:no-repeat; background-position:center;}
+#search{ width:500px; height:67px; float:right; margin-top:34px; background-image:url(Images/txtbg.png); background-repeat:no-repeat; background-position:center top;}
+#search .txtsel{ width:370px; height:37px; float:left; padding-left:20px;}
+#search .txtsel .txt{ width:370px; height:35px; line-height:35px; color:#888888; border-width:0px; background-color:transparent;}
+#search .divbtn{ width:100px; height:37px; position:relative; margin-top:0px; float:left; cursor:pointer;}
+#search .hottag{ width:480px; height:30px; padding-left:20px; line-height:30px;}
+#search .hottag a{ color:#0453a8;}
+#search .hottag a:hover{ color:Red;}
+
+#nav{ width:960px; height:41px; padding-left:30px; z-index:99;}
+#nav .navbg{ width:516px; height:41px; float:right; position:absolute; cursor:none; margin-left:386px; background-image:url(Images/mbg.jpg); background-position:right center; background-repeat:no-repeat;filter:alpha(opacity=15);opacity:0.15;}
+#nav div{ width:100px; height:37px; line-height:37px; margin-right:30px; margin-top:4px; padding-right:4px; float:left; color:White; font-size:16px; font-weight:bold; text-align:center; cursor:pointer;}
+#nav div a{ color:White;}
+#nav .menu{ background-image:url(Images/menubg.png); background-position:center 0px; background-repeat:no-repeat; color:#11609b;}
+#nav a:hover{ color:Yellow;}
+#nav .menu a{ color:#11609b;}
+#nav .menu a:hover{color:#11609b;}
+.navsubbox{ width:980px; height:50px;}
+.navsubbox .navsub{ width:980px; height:40px; padding-left:10px; padding-top:10px; display:none;}
+.navsubbox .navsub .menu1{ width:100px; height:27px; line-height:27px; margin-right:10px; text-align:center; color:#0453a8; cursor:pointer; float:left;}
+.navsubbox .navsub .menu2{ width:75px; position:relative; height:27px;line-height:27px; padding-right:15px; margin-right:10px;text-align:center; background-image:url(Images/menu2bg.png); background-repeat:no-repeat; color:#0453a8; cursor:pointer; float:left; z-index:999999;}
+.navsubbox .navsub .box{ width:147px; height:233px; overflow:hidden; display:block; position:absolute; top:24px; left:0px; z-index:999999; }
+.navsubbox .navsub .box .box_top{ width:147px; height:10px; overflow:hidden; background-image:url(Images/boxbg.png); background-position:center 0px;}
+.navsubbox .navsub .box .box_conter{ width:127px; padding:0px 10px; overflow:hidden; background-image:url(Images/boxbg.png); background-position:center -10px;}
+.navsubbox .navsub .box .box_conter div{ width:63px; height:25px; line-height:25px; float:left; text-align:center;}
+.navsubbox .navsub .box .box_bottom{ width:147px;height:10px; overflow:hidden; background-image:url(Images/boxbg.png); background-position:center bottom; }
+.navsubbox .navsub a{color:#0453a8;}
+.navsubbox .navsub a:hover{ color:Red;}
+
+
+.rounded_175_DCF0E1{ width:175px; height:175px; position:absolute; z-index:9; margin-left:0px; margin-top:0px; background-image:url(Images/175_DCF0E1.png);}
+.rounded_108_DCF0E1{ width:108px; height:108px; position:absolute; z-index:9; margin-left:0px; margin-top:0px; background-image:url(Images/108_DCF0E1.png);}
+.rounded_108_D9E5EC{ width:108px; height:108px; position:absolute; z-index:9; margin-left:0px; margin-top:0px; background-image:url(Images/108_D9E5EC.png);}
+.rounded_108_FFFFFF{ width:108px; height:108px; position:absolute; z-index:9; margin-left:0px; margin-top:0px; background-image:url(Images/108_FFFFFF.png);}
+.rounded_67_EEEEEE{ width:67px; height:67px; position:absolute; z-index:9; margin-left:0px; margin-top:0px; background-image:url(Images/67_EEEEEE.png);}
+.rounded_67_FFFFFF{ width:67px; height:67px; position:absolute; z-index:9; margin-left:0px; margin-top:0px; background-image:url(Images/67_FFFFFF.png);}
+.rounded_67_DCF0E1{ width:67px; height:67px; position:absolute; z-index:9; margin-left:0px; margin-top:0px; background-image:url(Images/67_DCF0E1.png);}
+.rounded_67_DDEWER{ width:67px; height:67px; position:absolute; z-index:9; margin-left:0px; margin-top:0px; background-image:url(Images/67_DDEWER.png);}
+
+.bar .more a{color:#666666;}
+.bar .more a:hover{ color:Red;}
+
+.btn1{ width:63px; height:23px; text-align:center; font-size:12px; line-height:20px; color:#FFFFFF; cursor:pointer; background-image:url(Images/iconbg.png); background-position:-149px -30px; border-width:0px;}
+.btn2{ width:94px; height:26px; text-align:center; font-size:12px; line-height:26px; color:#FFFFFF; cursor:pointer; background-image:url(Images/iconbg.png); background-position:-230px -30px; border-width:0px; font-weight:bold; padding-left:20px;}
+.btn_download{ width:72px; height:23px;cursor:pointer; background-image:url(Images/iconbg.png); background-position:-150px -60px; border-width:0px;  }
+
+.txt1{ width:698px; height:100px; line-height:25px; font-size:12px; border:solid 1px #afb2c5;}
+
+.cGray{ color:#888888;}
+.cBlue{ color:#0453a8;}
+.cBlue2{ color:#0f4374;}
+.cRed{ color:#e9431c;}
+.px20{ font-size:20px;}
+
+.box_row_bg{ background-image:url(Images/box_row_bg.png);}
+
+
+
+
+

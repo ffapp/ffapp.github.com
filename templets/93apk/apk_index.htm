@@ -1,0 +1,514 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="google-site-verification" content="22oWJd3n8_PsHoHrPM7_CD8_sBuVYsKB33CUsJo4eQA" />
+<meta http-equiv="x-ua-compatible" content="ie=7" />
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="wumiiVerification" content="e9f516f0-7d9b-4607-a713-30251fdb8208" />
+<meta name="chinaz-site-verification" content="022eb12a-5dc0-40cf-8fab-d06147ee0329" />
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/article.css" type="text/css" rel="stylesheet" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<style type="text/css">
+            .tqq{ background:url(img/tqq.gif) no-repeat; width:178px ; height:36px; display:block;}
+            .tsina{ background:url(img/tsina.gif) no-repeat; width:178px ; height:36px; display:block; margin:8px 0; margin-top:12px}
+</style>
+</head>
+<body>
+<!--网站头部-->
+{dede:include filename="apk_head.htm"/}
+<!--//网站头部-->
+<!--<div id="topImg" style="width:948px; margin:5px auto; background:#fff; border:1px solid #ddd; padding:2px;"><a href="#" target="_blank"><img alt="" src="{dede:global.cfg_templets_skin/}/images/7year.png" /></a></div>-->
+<span class="cont_tbg"></span>
+<div class="content">
+	<!--<div class="w950 intro">
+		<div class="it_r">
+			<DIV class="jiashao">
+			<h3><strong>安卓应用市场</strong><em>是你安卓手机应用游戏的下载基地。</em></h3>
+			<p>实时更新的应用游戏——第一时间为你更新应用游戏的最新版本！<br />软件全部经过安全检测，放心下载，安心使用，远离病毒！</p>
+			</DIV>
+			<div class="erweima"><img alt="二维码访问本站" src="/images/yestom.png"  width="120" height="120"/></div>
+		</div>
+		<div class="login">
+			
+		</div>
+		<div class="fm">
+		    <div id="player"></div>
+			<dl class="fm_live">
+				<dt>TOM猫用户</dt>
+				<dd class="fm_d1">QQ群：67478790 QQ群：134835455</dd>
+				<dd class="fm_d2"></dd>
+			</dl>
+			<div class="fm_info" style="display:none" >
+				<div class="fhd">					
+				</div>
+				<div class="fm_view">
+					<div class="fm_gong fm_lrc" id="ListGC">
+					</div>
+					<div class="fm_gong fm_rt" id="ListChannel">					 
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>-->
+	<div class="w950 g1">
+	    
+		<div class="g1_3 bk">
+			<div class="hd"><h3><a href="#" target="_blank" title="网友推荐">安卓软件排行榜</a><img src='{dede:global.cfg_templets_skin/}/images/hot.gif'/></h3></div>
+			<div class="r_bg">
+                <div id="demo" style="overflow:hidden;height:397px;">
+                <div id="dem"> 
+				<ul class="s_list">
+				{dede:arclist row='16' titlelen='26' infolen='120' orderby ='click'}
+					<li><a href="[field:arcurl/]" title="[field:fulltitle/]" target="_blank">[field:title/]</a></li>
+				{/dede:arclist}
+				</ul>
+			    </div>
+                <div id="demo2"></div>
+                </div>
+				<div class="pl">
+				</div>
+			</div>
+			<span class="d_bg"></span>
+		</div>
+	    
+		<div class="yuep bk" style="float:right; margin-right:3px;">
+				<div class="hd"><h3><a href="#" target="_blank" title="必备安卓软件">必备安卓软件</a></h3><span class="hd_rt"></span><a href="#" target="_blank" class="more">更多必备软件</a></div>
+				<div class="y_list r_bg">
+						<ul class="soft-list-icon"> 
+						{dede:arclist row='24' titlelen='40' flag ='c' infolen='160'}
+							<li>
+								<div class="icon60"><a href="[field:arcurl/]" title="[field:fulltitle/]"><img src="[field:litpic/]" width="50" height="50" /></a></div>
+								<div class="name"><a href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></div>
+							</li>  
+						{/dede:arclist}
+						</ul>
+						<span class="ld_bg"></span>
+				</div>
+				<span class="d_bg"></span>
+			</div>
+		<div class="g1_1">
+			
+			<div class="m_fl">
+				<div class="container" id="idTransformView">			    
+					<ul class="slider" id="idSlider">
+					{dede:arclist row='6' flag ='f' type='image.' addfields='flash' channelid='3'}
+						<li><A href="[field:arcurl/]" target="_blank"><img title="[field:title/]" src="[field:flash/]"></a></li>
+					{/dede:arclist}
+					</ul>
+					<ul class="num" id="idNum">
+					{dede:arclist row='6' flag ='f' type='image.' channelid='3'}
+					<li>[field:global.autoindex/]</li>
+					{/dede:arclist}
+					</ul>
+				</div>
+			</div>
+			<div style="text-align:center;background:#DDFFFF">
+			<script type="text/javascript">/*250*250，创建于2011-10-14*/ var cpro_id = 'u643226';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script>
+			</div>
+			
+		</div>
+	</div>
+	<div class="w950 g2">
+	    
+		<!--<div class="g2_1">
+			<div class="hd_pic"><h3><a href="#" target="_blank" title="必备软件下载">必备软件</a></h3><a href="#" target="_blank" title=”更多必备软件“ class="more">更多必备软件</a></div>
+			<span class="pic_lt"><a href="#" target="_blank">左边</a></span>
+			<ol class="pic_list">
+				{dede:arclist titlelen='10' row='10' flag ='' typeid='6,7,8,9,10,11,12,13,14,15,16,17,18'}
+				<li>
+				    <a href="[field:arcurl/]"  target="_blank"><img alt="[field:fulltitle/]_" src="[field:litpic/]" width="50" height="50" /></a>
+				    <p><a href="[field:arcurl/]"  target="_blank" title="[field:title/]">[field:title/]</a><br />下载：[field:click/]</p>
+				</li>
+			{/dede:arclist}
+			</ol>
+			<span class="pic_rt"><a href="#" target="_blank">右边</a></span>
+		</div>-->
+		<div style="float:right"><!--百度广告-->
+	</div>
+	
+	<div class="w950 g5">
+		<div class="g5_1">
+		    
+			<div class="sp bk">
+				<div class="hd"><h3><a href="/93apk/app/" target="_blank" title="本站下载TOP10">安卓软件下载TOP10</a></h3><span class="hd_rt"></span><a href="/93apk/app/" target="_blank" class="more">下载TOP10</a></div>
+				<div class="r_bg">
+					<ul class="w_list">
+						{dede:arclist typeid='2' row='10' titlelen='36'  infolen='120' orderby ='click'}
+						<li class="top[field:global.autoindex/]">
+						<a href="[field:arcurl/]" title="[field:fulltitle/]" target="_blank">[field:title/]</a></li>
+					    {/dede:arclist}
+					</ul>
+					<span class="ld_bg"></span>
+				</div>
+				<span class="d_bg"></span>
+			</div>
+			
+			<div class="bz bk">
+				<div class="hd"><h3><a href="/93apk/game/" target="_blank" title="本站下载TOP10">安卓游戏下载TOP10</a></h3><span class="hd_rt"></span><a href="/93apk/game/" target="_blank" class="more">下载TOP10</a></div>
+				<div class="r_bg">
+					<ul class="w_list">
+						{dede:arclist typeid='3' row='10' titlelen='36'  infolen='120' orderby ='click'}
+						<li class="top[field:global.autoindex/]">
+						<a href="[field:arcurl/]" title="[field:fulltitle/]" target="_blank">[field:title/]</a></li>
+					    {/dede:arclist}
+					</ul>
+					<span class="ld_bg"></span>
+				</div>
+				<span class="d_bg"></span>
+			</div>
+			
+			
+			<div class="yuep bk">
+				<div class="hd"><h3><a href="/93apk/Today/" target="_blank" title="最新更新">最近更新安卓软件 安卓游戏</a></h3><span class="hd_rt"></span><a href="/93apk/Today/" target="_blank" class="more">更多最新更新</a></div>
+				<div class="y_list r_bg">
+					{dede:arclist row='9' titlelen='50' infolen='160'}
+					<dl>
+						<dt><a href="[field:arcurl/]" target="_blank" title="nyny010"><img alt="[field:fulltitle/]" src="[field:litpic/]" width="46" height="46" /></a></dt>
+						<dd><span style="float:right">更新时间：[field:pubdate runphp='yes']
+$a="<font color=red>".strftime('%m-%d',@me)."</font>";
+$b=strftime('%m-%d',@me);
+$ntime = time();
+$day3 = 3600 * 24;
+if(($ntime - @me) < $day3) @me = $a;
+else @me =$b;
+[/field:pubdate]</span><a href="[field:arcurl/]">[field:title/]</a></dd>
+						<dd>[field:info/]...</dd>
+					</dl>
+					{/dede:arclist}
+				<span class="ld_bg"></span>
+				</div>
+				<span class="d_bg"></span>
+			</div>
+			
+			
+			<div class="g2_1">
+			<div class="hd_pic"><h3><a href="#" target="_blank" title="必玩游戏">必玩安卓游戏</a></h3><a href="/93apk/game/" target="_blank" title=”更多必备软游戏 class="more">更多必备游戏<</a></div>
+			<ol class="pic_list">
+				{dede:arclist titlelen='10' row='10' flag ='' typeid='3'}
+				<li>
+				    <a href="[field:arcurl/]"  target="_blank"><img alt="[field:fulltitle/]" src="[field:litpic/]" width="52" height="52" /></a>
+				    <p><a href="[field:arcurl/]"  target="_blank" title="[field:title/]">[field:title/]</a><br />下载：[field:click/]</p>
+				</li>
+			{/dede:arclist}
+			</ol>
+		</div>
+		</div>
+		<div class="g5_2">
+			
+			<div class="even bk">
+				<div class="hd"><h3>关注我们</h3></div>
+				<div class="r_bg">
+				<ul>
+				<li><h3>二维码快速手机访问</h3></li>
+				<img alt="二维码访问本站" src="/images/yestom.png"  width="170" height="170"/>				    
+				</ul>
+				<ul>
+				    <a href="http://weibo.com/u/1854303564" target="_blank" class="tsina"></a>
+                    <a href="http://t.qq.com/yes-tom" target="_blank" class="tqq"></a>
+					</ul>
+				<span class="ld_bg"></span>
+				</div>
+				<span class="d_bg"></span>
+			</div>
+			
+			
+			<div class="qz bk">
+				<div class="hd"><h3><a href="/93apk/game/" target="_blank" title="手机壁纸">安卓游戏专区</a></h3><span class="hd_rt"></span><a href="/93apk/game/" target="_blank" class="more">更多安卓游戏</a></div>
+				<div class="r_bg">
+				<center><iframe id="baiduSpFrame" border="0" vspace="0" hspace="0" marginWidth="0" marginHeight="0" frameSpacing="0" frameBorder="0" scrolling="no" width="180" height="150" src="http://spcode.baidu.com/spcode/spstyle/style4148.jsp?tn=96068007_sp&ctn=0&styleid=4148"></iframe>
+				<br/>
+				<iframe id="baiduSpFrame" border="0" vspace="0" hspace="0" marginWidth="0" marginHeight="0" frameSpacing="0" frameBorder="0" scrolling="no" width="180" height="150" src="http://spcode.baidu.com/spcode/spstyle/style1886.jsp?tn=96068007_sp&ctn=0&styleid=1886"></iframe>
+				</center>
+				<span class="ld_bg"></span>
+				</div>
+				<span class="d_bg"></span>
+			</div>
+			
+		</div>
+	</div>
+	<div class="main960">
+<div class="layAB pt10">
+	<!--<div class="img670_80 marb10"><a href="http://www1.pconline.com.cn/download/zt/2010/rjzx/index.html?ad=5852" target="_blank"><img src="uploads/allimg/110607/5_1443242341.jpg" /></a>
+	</div>-->
+<p class="titBox5"><a class="mark" href="/93apk/app/" target="_blank"><strong>安卓软件分类 必备apk软件下载</strong></a><span class="hd_rt"></span><a href="/93apk/app/" target="_blank" class="more" style="margin-top:-20px;">更多应用</a></p>
+<div class="titCon5">
+
+<dl class="imgBox3">
+	<dt><a href="/93apk/app/xitonggongju/" title="系统工具">系统工具</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='17' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+    </dd>
+</dl>
+
+<dl class="imgBox3 bgY">
+	<dt><a href="/93apk/app/liaotianshequ/" title="聊天社区">聊天社区</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='6' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+    </dd>
+</dl>
+
+<dl class="imgBox3">
+	<dt><a href="/93apk/app/wangluoruanjian/" title="网络软件">网络软件</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='9' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+
+    </dd>
+</dl>
+
+<dl class="imgBox3 bgY">
+	<dt style="border-right:1px solid #fff;"><a href="/93apk/app/zhutimeihua/" title="主题美化">主题美化</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='8' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+
+    </dd>
+</dl>
+
+
+<dl class="imgBox3">
+	<dt><a href="/93apk/app/yingyinbofang/" title="影音播放">影音播放</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='12' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+
+    </dd>
+</dl>
+
+
+
+<dl class="imgBox3 bgY">
+	<dt><a href="/93apk/app/ditudaohang/" title="影音播放">地图导航</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='11' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+
+    </dd>
+</dl>
+
+
+
+<dl class="imgBox3">
+	<dt><a href="/93apk/app/shurufa/" title="安全密保">输入法</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='14' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+
+    </dd>
+</dl>
+
+
+
+<dl class="imgBox3 bgY">
+	<dt style="border-right:1px solid #fff;"><a href="/93apk/app/tuxingtuxiang/" title="图形图像">图形图像</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='10' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+
+    </dd>
+</dl>
+
+
+
+<dl class="imgBox3">
+	<dt><a href="/93apk/app/anquanbaomi/" title="安全密保">安全密保</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='18' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+
+    </dd>
+</dl>
+
+
+
+<dl class="imgBox3 bgY">
+	<dt style="border-right:1px solid #fff;"><a href="/93apk/app/tongxunzengqiang/" title="通信增强">通信增强</a></dt>
+    <dd>
+          {dede:arclist titlelen='14' row='4' col='2' typeid='7' flag='c'}
+	 <p class="pic_box"><a href="[field:arcurl /]" target="_blank"><img src='[field:litpic/]' border='0'  alt='[field:fulltitle /]'></a><a class="tit" href="[field:arcurl /]" target="_blank">[field:title /]</a></p>
+          {/dede:arclist}
+
+    </dd>
+</dl>
+</div>
+</div>
+</div>
+
+</div>
+<span class="cont_dbg"></span>
+<div class="w950 f_link">
+	<em>友情链接：</em>诚招友情链接合作，要求：PR≥3,百度快照24小时!</div>
+<style>
+.main960{width:960px;margin:0 auto}
+.mart10{margin-top:10px}
+.friendsrtit{height:43px;background:url(../images/box.png) no-repeat -40px -1240px;text-indent:-9999px}
+.friendsBox{display:inline-block;width:938px;border-left:1px solid #e1e1e1;border-right:1px solid #e1e1e1;text-align:left;line-height:23px;padding:0 10px}
+.friendsBox li{float:left;height:23px; margin:3px;white-space:nowrap}
+.friendsBox a:link,.friendsBox a:visited{color:#666666}
+.ft,.ft_r{height:4px;overflow:hidden;background:url(/images/box.png) no-repeat 0 -112px}
+.ft_r{width:5px;background-position:right -112px}
+</style>
+<div class="main960 mart10">	
+	<ul class="friendsBox">
+ 	{dede:flink row='38' type='text' titlelen="36" typeid="0"} [field:link /] {/dede:flink}
+		<a href="/plus/flink.php" target="_blank">更多...</a>
+ 	</ul>
+	<div class="ft">
+		<div class="fr ft_r"></div>
+	</div> 
+</div><br />
+<!--网站底部-->
+{dede:include filename="apk_footer.htm"/}
+<!--//网站底部-->
+</div>
+<script type="text/javascript">
+                    var abc = function(id) {
+                        return "string" == typeof id ? document.getElementById(id) : id;
+                    };
+
+                    var Class = {
+                        create: function() {
+                            return function() {
+                                this.initialize.apply(this, arguments);
+                            }
+                        }
+                    }
+
+                    Object.extend = function(destination, source) {
+                        for (var property in source) {
+                            destination[property] = source[property];
+                        }
+                        return destination;
+                    }
+
+                    var TransformView = Class.create();
+                    TransformView.prototype = {
+                        //容器对象,滑动对象,切换参数,切换数量
+                        initialize: function(container, slider, parameter, count, options) {
+                            if (parameter <= 0 || count <= 0) return;
+                            var oContainer = abc(container), oSlider = abc(slider), oThis = this;
+
+                            this.Index = 0; //当前索引
+
+                            this._timer = null; //定时器
+                            this._slider = oSlider; //滑动对象
+                            this._parameter = parameter; //切换参数
+                            this._count = count || 0; //切换数量
+                            this._target = 0; //目标参数
+
+                            this.SetOptions(options);
+
+                            this.Up = !!this.options.Up;
+                            this.Step = Math.abs(this.options.Step);
+                            this.Time = Math.abs(this.options.Time);
+                            this.Auto = !!this.options.Auto;
+                            this.Pause = Math.abs(this.options.Pause);
+                            this.onStart = this.options.onStart;
+                            this.onFinish = this.options.onFinish;
+
+                            //oContainer.style.overflow = "hidden";
+                            //oContainer.style.position = "relative";
+
+                            //oSlider.style.position = "absolute";
+                            //oSlider.style.top = oSlider.style.left = 0;
+                        },
+                        //设置默认属性
+                        SetOptions: function(options) {
+                            this.options = {//默认值
+                                Up: true, //是否向上(否则向左)
+                                Step: 10, //滑动变化率
+                                Time: 20, //滑动延时
+                                Auto: true, //是否自动转换
+                                Pause: 3000, //停顿时间(Auto为true时有效)
+                                onStart: function() { }, //开始转换时执行
+                                onFinish: function() { } //完成转换时执行
+                            };
+                            Object.extend(this.options, options || {});
+                        },
+                        //开始切换设置
+                        Start: function() {
+                            if (this.Index < 0) {
+                                this.Index = this._count - 1;
+                            } else if (this.Index >= this._count) { this.Index = 0; }
+
+                            this._target = -1 * this._parameter * this.Index;
+                            this.onStart();
+                            this.Move();
+                        },
+                        //移动
+                        Move: function() {
+                            clearTimeout(this._timer);
+                            var oThis = this, style = this.Up ? "top" : "left", iNow = parseInt(this._slider.style[style]) || 0, iStep = this.GetStep(this._target, iNow);
+
+                            if (iStep != 0) {
+                                this._slider.style[style] = (iNow + iStep) + "px";
+                                this._timer = setTimeout(function() { oThis.Move(); }, this.Time);
+                            } else {
+                                this._slider.style[style] = this._target + "px";
+                                this.onFinish();
+                                if (this.Auto) { this._timer = setTimeout(function() { oThis.Index++; oThis.Start(); }, this.Pause); }
+                            }
+                        },
+                        //获取步长
+                        GetStep: function(iTarget, iNow) {
+                            var iStep = (iTarget - iNow) / this.Step;
+                            if (iStep == 0) return 0;
+                            if (Math.abs(iStep) < 4) return (iStep > 0 ? 1 : -1);
+                            return iStep;
+                        },
+                        //停止
+                        Stop: function(iTarget, iNow) {
+                            clearTimeout(this._timer);
+                            this._slider.style[this.Up ? "top" : "left"] = this._target + "px";
+                        }
+                    };
+
+                    window.onload = function() {
+                        function Each(list, fun) {
+                            for (var i = 0, len = list.length; i < len; i++) { fun(list[i], i); }
+                        };
+
+                        var objs = abc("idNum").getElementsByTagName("li");
+
+                        var tv = new TransformView("idTransformView", "idSlider", 210, objs.length, {
+                            onStart: function() { Each(objs, function(o, i) { o.className = tv.Index == i ? "on" : ""; }) } //按钮样式
+                        });
+
+                        tv.Start();
+
+                        Each(objs, function(o, i) {
+                            o.onmouseover = function() {
+                                o.className = "on";
+                                tv.Auto = false;
+                                tv.Index = i;
+                                tv.Start();
+                            }
+                            o.onmouseout = function() {
+                                o.className = "";
+                                tv.Auto = true;
+                                tv.Start();
+                            }
+                        })
+
+                    }
+                   
+    
+</script>
+<a href="http://web.gw.youmi.net/goto?s=QhFsGr1T2xaNO_-4jdHxCFBPyRb4S1Sn6WMEOpp">-有米推荐</a>
+
+</body>
+</html>

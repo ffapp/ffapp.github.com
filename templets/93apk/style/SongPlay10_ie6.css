@@ -1,0 +1,6 @@
+.cate_list{top:26px;}
+.cate_list li{height:16px;}
+.lb_info ul{height:238px;}
+.fenx{height:257px}
+#pl_bg,.disbg{position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop))}
+.disbg{top:expression(eval(document.documentElement.scrollTop+110))}

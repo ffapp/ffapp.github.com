@@ -1,0 +1,1 @@
+﻿document.write("<a href=\"http://club.5sing.com/2379/ForumInfo-30662.aspx\" target=\"_blank\"><img src=\"http://static.5sing.com/images/partner/images/weibo20110302.png\" width=\"180\" height=\"150\" border=\"0\"/></a>");

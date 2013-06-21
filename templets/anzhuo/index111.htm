@@ -1,0 +1,47 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="JS代码,图片特效,JS广告代码,JS特效代码" />
+<meta name="description" content="此代码内容为jQuery图片排列动画效果，属于站长常用代码，更多图片特效代码请访问懒人图库JS代码频道。" />
+<title>jQuery图片排列动画效果_懒人图库</title>
+<LINK rel=stylesheet href="/css/lanrenxixi.css"><!--[if IE 7]><link rel="stylesheet" href="/css/ie7.css" /><![endif]--><!-- DO NOT USE THESE FILES. they are compiled for fast http access --><!-- if you’re looking for source, download or read documentation -->
+<SCRIPT type=text/javascript src="/js/jquery-1.4.1-and-plugins.min.js"></SCRIPT>
+<SCRIPT type=text/javascript src="/js/main.js"></SCRIPT>
+</head>
+
+<body>
+
+<DIV id=wrapper>
+<DIV id=site>
+<DIV id=title>
+<H1>Quicksand<SPAN></SPAN></H1>
+<P>Reorder and filter items with a nice shuffling animation.</P></DIV><!-- this isn’t part of the plugin, just a control for demo -->
+<UL class=splitter>
+  <LI>Filter by type:
+  <UL>
+    <LI class="segment-1 selected-1"><A 
+    href="#" 
+    data-value="all">全部软件</A></LI>
+</UL></LI>
+  <LI>Sort by:
+  <UL>
+    <LI class="segment-1 selected-1"><A 
+    href="#" 
+    data-value="name">按名称</A></LI>
+    <LI class=segment-2><A href="#" 
+    data-value="size">按大小</A></LI></UL></LI></UL>
+<DIV class=demo><!-- read the documentation to understand what’s going on here -->
+<UL id=list class=image-grid>
+
+{dede:arclist row='20' addfields='softsize' channelid=3 titlelen='28' typeid='6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,34,25,26,27,28' orderby ='pubdate'}
+  <LI class=util data-id="id-[field:global.autoindex/]"><a href="[field:arcurl/]"><IMG alt="" 
+  src="[field:litpic/]" width=128 
+  height=128></a> <STRONG>[field:title/]</STRONG> <SPAN>[field:softsize/]</SPAN> </LI>
+  {/dede:arclist}
+
+  </UL></DIV>
+</DIV>
+</DIV>
+</body>
+</html>

@@ -1,0 +1,166 @@
+<div id="webtop">
+        <div id="heard">
+            <div id="logo" onclick="window.location.href='/';">
+            </div>
+            <div id="search">
+                <div class="txtsel">
+				<form id="search_form" name="search_form" action="{dede:global.cfg_basehost/}/plus/search.php" method="post">
+				<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwULLTE2MjM2NTMwNjBkZNux0tQVhmESPyXWdkr5vMVJKcTS" />
+                    <input name="keyword" id="keyword" type="text" value="输入你要查找的关键字"  onkeydown="return onkeyEnter();" class="txt" onfocus="txton(this,'1')"
+                        onblur="txton(this,'2')" />
+						    </form>
+
+                </div>
+                <div class="divbtn" onclick="search_form.submit()">
+                </div>
+                <div class="hottag">
+                    <span class="cGray">热门搜索：</span>
+                    {dede:hotwords num='8' subday='30'/}
+                </div>
+            </div>
+        </div>
+        <div id="nav">
+            <div id="nav_menu_iPhone" class="menu" onmouseover="switchTopTab('iPhone')">
+                <a href="/">首页</a></div>
+           <div><a href="" target="_blank">装机必备</a></div>
+			<div><a href="http://ffapp.info/a/all/app/" target="_blank">FF应用</a></div>
+           <div><a href="http://ffapp.info/a/all/game/" target="_blank">FF游戏</a></div>
+           <div><a href="" target="_blank">排行榜</a></div>
+		   <div><a href="http://ffapp.info/a/all/develop/" target="_blank">开发者</a></div>
+		   <div><a href="" target="_blank">论坛</a></div>
+              <div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            function menuState() {
+
+
+            }
+        </script>
+        <div class="navsubbox">
+            <div class="navsub" id="nav_iPhone" style="display: block;">
+                <div class="menu2">
+                    <div class="box" id="iPhone_box_yx" style=" display:none;">
+                        <div class="box_top">
+                        </div>
+                        <div class="box_conter">
+                            {dede:channel type='son' row='20' typeid='2'}
+                                    <div><a href="[field:typeurl/]">
+                                            [field:typename/]</a></div>
+                               {/dede:channel}
+
+                                
+                        </div>
+                        <div class="box_bottom">
+                        </div>
+                    </div>
+                    常用应用
+                </div>
+                <div class="menu2">
+                    <div class="box" id="iPhone_box_yx" style=" display:none;">
+                        <div class="box_top">
+                        </div>
+                        <div class="box_conter">
+                            {dede:channel type='son' row='20' typeid='3'}
+                                    <div><a href="[field:typeurl/]">
+                                            [field:typename/]</a></div>
+                               {/dede:channel}
+
+                                
+                        </div>
+                        <div class="box_bottom">
+                        </div>
+                    </div>
+                    游戏大全
+                </div>
+                <div class="menu2">
+                    <div class="box" id="iPhone_box_yx" style=" display:none;">
+                        <div class="box_top">
+                        </div>
+                        <div class="box_conter">
+                            {dede:channel type='son' row='20' typeid='68'}
+                                    <div><a href="[field:typeurl/]">
+                                            [field:typename/]</a></div>
+                               {/dede:channel}
+
+                                
+                        </div>
+                        <div class="box_bottom">
+                        </div>
+                    </div>
+                    小编推荐
+                </div>
+                <div class="menu2">
+                    <div class="box" id="iPhone_box_yx" style=" display:none;">
+                        <div class="box_top">
+                        </div>
+                        <div class="box_conter">
+                            {dede:channel type='son' row='20' typeid='87'}
+                                    <div><a href="[field:typeurl/]">
+                                            [field:typename/]</a></div>
+                               {/dede:channel}
+
+                                
+                        </div>
+                        <div class="box_bottom">
+                        </div>
+                    </div>
+                    人气排行
+                </div>
+                <div class="menu2">
+                    <div class="box" id="iPhone_box_yx" style=" display:none;">
+                        <div class="box_top">
+                        </div>
+                        <div class="box_conter">
+                            {dede:channel type='son' row='20' typeid='118'}
+                                    <div><a href="[field:typeurl/]">
+                                            [field:typename/]</a></div>
+                               {/dede:channel}
+
+                                
+                        </div>
+                        <div class="box_bottom">
+                        </div>
+                    </div>
+                    上升最快
+                </div>
+                <div class="menu2">
+                    <div class="box" id="iPhone_box_yx" style=" display:none;">
+                        <div class="box_top">
+                        </div>
+                        <div class="box_conter">
+                            {dede:channel type='son' row='20' typeid='106'}
+                                    <div><a href="[field:typeurl/]">
+                                            [field:typename/]</a></div>
+                               {/dede:channel}
+
+                                
+                        </div>
+                        <div class="box_bottom">
+                        </div>
+                    </div>
+                    其他相关
+                </div>
+            </div>
+            
+        </div>
+    </div>
+	    <script type="text/javascript">
+        function menuonload() {
+            $(".navsub .menu2 .box").css("display", "none");
+            $(".navsub .menu2").hover(function () {
+                $(this).children(".box").stop(true, true).slideDown("fast");
+            }, function () {
+                $(this).children(".box").stop(true, true).slideUp("fast")
+            })
+        }
+        menuonload();
+        if (isIE6()) {
+            DD_belatedPNG.fix('*');
+        }
+        function $get(id) {
+            return document.getElementById(id);
+        }
+
+
+    </script>

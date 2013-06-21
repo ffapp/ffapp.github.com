@@ -1,0 +1,30 @@
+	<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.4.4.min.js"></script>
+	<script src="{dede:global.cfg_templets_skin/}/js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: '{dede:global.cfg_templets_skin/}/img/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true
+			});
+		});
+	</script>
+	<link rel="stylesheet" href="{dede:global.cfg_templets_skin/}/css/global.css">
+	<div id="container">
+		<div id="example">
+			<img src="{dede:global.cfg_templets_skin/}/img/new-ribbon.png" width="112" height="112" alt="New Ribbon" id="ribbon">
+			<div id="slides">
+				<div class="slides_container">
+					<img src="{dede:field name='softpic1'/}" height="342" alt="{dede:field.title/}截图1" id="pic">
+					<img src="{dede:field name='softpic2'/}" height="342" alt="{dede:field.title/}截图2" id="pic">
+					<img src="{dede:field name='softpic3'/}" height="342" alt="{dede:field.title/}截图3" id="pic">
+					<img src="{dede:field name='softpic4'/}" height="342" alt="{dede:field.title/}截图4" id="pic">
+				</div>
+				<a href="#" class="prev"><img src="{dede:global.cfg_templets_skin/}/img/arrow-prev.png" width="24" height="43" alt="上一张"></a>
+				<a href="#" class="next"><img src="{dede:global.cfg_templets_skin/}/img/arrow-next.png" width="24" height="43" alt="下一张"></a>
+			</div>
+			<img src="{dede:global.cfg_templets_skin/}/img/example-frame.png" width="739" height="421" alt="Example Frame" id="frame">
+		</div>
+	</div>

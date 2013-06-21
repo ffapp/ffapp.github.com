@@ -1,0 +1,263 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<LINK rel=stylesheet type=text/css href="{dede:global.cfg_templets_skin/}/css/style_pic.css">
+<link rel="Stylesheet" href="{dede:global.cfg_templets_skin/}/style/main.css" />
+<link rel="Stylesheet" href="{dede:global.cfg_templets_skin/}/style/base.css" />
+<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/style.css" />
+<link rel="stylesheet" type="text/css" href="{dede:global.cfg_templets_skin/}/css/down.css" />
+<script language="javascript" type="text/javascript" src="{dede:global.cfg_cmsurl/}/include/dedeajax2.js"></script>
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/js/jquery.min1.js"></SCRIPT>
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/js/jquery.colorbox-min.js"></SCRIPT>
+<SCRIPT type=text/javascript src="{dede:global.cfg_templets_skin/}/js/lrtk.js"></SCRIPT>
+<style type="text/css">
+.downc *{line-height:25px;font-size:14px;}
+</style>
+</head>
+<body class="globalbody" >
+    <div class="globalheard">
+
+    </div>
+    <div class="globalnav">
+    </div>
+    <div class="globalnav2">
+    </div>
+    <div class="globalnr">
+    </div>
+           {dede:include filename="head_new.htm"/} 
+
+	    <script type="text/javascript">
+        function menuonload() {
+            $(".navsub .menu2 .box").css("display", "none");
+            $(".navsub .menu2").hover(function () {
+                $(this).children(".box").stop(true, true).slideDown("fast");
+            }, function () {
+                $(this).children(".box").stop(true, true).slideUp("fast")
+            })
+        }
+        menuonload();
+        if (isIE6()) {
+            DD_belatedPNG.fix('*');
+        }
+        function $get(id) {
+            return document.getElementById(id);
+        }
+
+        function switchTopTab(p) {
+//            $get("nav_menu_iPhone").className = "";
+////            $get("nav_menu_iPad").className = "";
+//            $get("nav_menu_" + p).className = "menu";
+
+//            $get("nav_iPhone").style.display = "none";
+////            $get("nav_iPad").style.display = "none";
+//            $get("nav_" + p).style.display = "block";
+        }
+    </script>
+
+    
+<div id="all" style="background:#FFFFFF; width:989px;">
+            <div class="appbox">
+                <div class="box_title">
+                   {dede:field name='position'/}{dede:field.title /}
+                </div></div>
+<div class="downContent">
+	<div class="left lc">
+    	<div class="down-panel">
+        	<div class="apkicon"><img src="{dede:global.cfg_templets_skin/}/images/rss.gif" alt="阅读全文" /></div>
+            <div class="right me">
+            	<div class="title"><h1 class="left" id="tt1">{dede:field.title /}</h1><!--<span class="right"><a href="#" target="_blank">去论坛看看</a></span>--></div>
+                <div class="mep"><span class="pubdata">更新日期：{dede:field.pubdate function="GetDateMk('@me')"/}</span><span>|</span><span class="tag">Tag：{dede:tag type='current'/}</span></div>
+            </div>
+        </div>
+        <div class="downcon">
+        	<div class="title tabb"><ul><li class="on">软件介绍</li><!--<li>软件截图</li>--></ul></div>
+            <div class="downc" style="line-height:20px;">
+			{dede:field.body/} 
+            </div>
+            </div>
+		<script language="javascript" type="text/javascript">
+        function dyniframesize(down) {
+        var pTar = null;
+        if (document.getElementById){
+        pTar = document.getElementById(down);
+        }
+        else{
+        eval('pTar = ' + down + ';');
+        }
+        if (pTar && !window.opera){
+        //begin resizing iframe
+        pTar.style.display="block"
+        if (pTar.contentDocument && pTar.contentDocument.body.offsetHeight){
+        //ns6 syntax
+        pTar.height = pTar.contentDocument.body.offsetHeight +20;
+        pTar.width = pTar.contentDocument.body.scrollWidth+20;
+        }
+        else if (pTar.Document && pTar.Document.body.scrollHeight){
+        //ie5+ syntax
+        pTar.height = pTar.Document.body.scrollHeight;
+        pTar.width = pTar.Document.body.scrollWidth;
+        }
+        }
+        }
+        </script> 
+		<script>
+        function xcopyf(){
+                 var obj=document.getElementById("tt1");
+                  window.clipboardData.setData("text",obj.innerText);
+            alert('成功复制了');
+        }
+		function copyURL() {
+			var url = location.href;
+			window.clipboardData.setData("Text", url);
+			alert("该网页链接地址已复制，您可以粘贴(快截键CTRL+V)在需要的地方");
+		}
+        </script>
+        
+<!-- UY BEGIN -->
+<div id="uyan_frame"></div>
+<script type="text/javascript" id="UYScript" src="http://v1.uyan.cc/js/iframe.js?UYUserId=1708000" async=""></script>
+<!-- UY END -->
+
+    </div>
+    <div class="right sidebar">
+    	<div class="rad">
+    	<span class="left">
+        <script src='/plus/ad_js.php?aid=21' language='javascript'></script>
+		</span>
+        </div>
+		        <div class="down-order mt">
+        	<div class="title"><span class="left">FF推荐</span><div class="right ph"><ul><li class="on">排行榜</li><li>应用</li><li>游戏</li></ul></div></div>
+            <div class="ddcontent ddd">
+            	<ul class="tabin">
+				{dede:arclist row=10 orderby=click infolen='30'}
+                <li>
+                    <div class="left thumb"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="48" height="48" alt="[field:title/]图标" /></a></div>
+                    <div class="right downfk">
+                    <span class="left"><a href="[field:arcurl/]" target="_blank">[field:title/]</a></span><span class="right"><a href="[field:arcurl/]" target="_blank" class="s-dbt">查看详细</a></span>
+                    <p>07-12<br /> [field:info/]...</p>
+                    </div>
+                    </li>
+				{/dede:arclist}
+                </ul>
+            	<ul>
+				{dede:arclist row=10 orderby=click infolen='30' typeid=2}
+                <li>
+                    <div class="left thumb"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="48" height="48" alt="[field:title/]图标" /></a></div>
+                    <div class="right downfk">
+                    <span class="left"><a href="[field:arcurl/]" target="_blank">[field:title/]</a></span><span class="right"></span>
+                    <p>07-12<br /> [field:info/]...</p>
+                    </div>
+                    </li>
+				{/dede:arclist}
+                </ul>
+            	<ul>
+				{dede:arclist row=10 orderby=click infolen='30' typeid=3}
+                <li>
+                    <div class="left thumb"><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="48" height="48" alt="[field:title/]图标" /></a></div>
+                    <div class="right downfk">
+                    <span class="left"><a href="[field:arcurl/]" target="_blank">[field:title/]</a></span><span class="right"></span>
+                    <p>07-12<br /> [field:info/]...</p>
+                    </div>
+                    </li>
+				{/dede:arclist}
+                </ul>
+            </div>
+        </div>
+        <div class="adad mt">
+		</div>
+            
+</div>
+</div>
+
+<div class="fad"></div>
+
+
+<script type="text/javascript"> 
+
+$(function(){
+    var $div_lij = $("div.tabb ul li");
+    $div_lij.mousemove(function(){
+        $(this).addClass("on").siblings().removeClass("on");
+        var index =  $div_lij.index(this);  
+        $("div.downc > ul").eq(index).show().siblings().hide();
+    });
+	$("div.downc ul").mousemove(function(){
+		$(this).addClass("tabin").siblings().removeClass("tabin");
+	});
+});
+
+$(function(){
+    var $div_lik = $("div.ph ul li");
+    $div_lik.mousemove(function(){
+        $(this).addClass("on").siblings().removeClass("on");
+        var index =  $div_lik.index(this);  
+        $("div.ddd > ul").eq(index).show().siblings().hide();
+    });
+	$("div.ddd ul").mousemove(function(){
+		$(this).addClass("tabin").siblings().removeClass("tabin");
+	});
+});
+
+</script>
+
+<script type="text/javascript">
+	//复制连接
+	function copyLink() {
+		var links = document.title + location.href;
+		window.clipboardData.setData("Text", links);
+		alert("该网页地址已复制，您可以在QQ,MSN中粘贴(快截键CTRL+V)推荐给好友");
+	}
+	function copyURL() {
+		var url = location.href;
+		window.clipboardData.setData("Text", url);
+		alert("该网页链接地址已复制，您可以粘贴(快截键CTRL+V)在需要的地方");
+	}
+
+	
+function font_size(size) {
+    if (size) {
+	switch (size) {
+	    case 'b':
+		size = '16px';
+		break;
+	    case 's':
+		size = '12px';
+		break;
+		case 'de':
+		size = '14px';
+		break;
+	    default:
+		size = '14px';
+		break;
+	}
+	$('#content').css('font-size', size);
+    }
+    return false;
+}
+
+</script>
+<script type="text/javascript">
+function SetWinHeight(obj)
+{
+var win=obj;
+if (document.getElementById)
+{
+if (win && !window.opera)
+{
+if (win.contentDocument && win.contentDocument.body.offsetHeight)
+win.height = win.contentDocument.body.offsetHeight;
+else if(win.Document && win.Document.body.scrollHeight)
+win.height = win.Document.body.scrollHeight;
+}
+}
+} 
+</script>
+	</div>
+        {dede:include filename="footer_new.htm"/}
+</body>
+</html>

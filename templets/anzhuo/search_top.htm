@@ -1,0 +1,16 @@
+<div class="M1">
+	<div class="M1_banner">
+    	<div class="M1_fla FL">
+            <div id="KinSlideshow" style="visibility:hidden;">
+            {dede:arclist flag='f' row='5' titlelen='46' addfields='flash' channelid=3}
+                <a href="[field:arcurl/]" target="_blank"><img src="[field:flash/]" alt="[field:title function='html2text(@me)'/]"/></a>
+            {/dede:arclist}
+            </div>
+        </div>
+        <ul class="M1_tt FL">
+        	{dede:arclist flag='h' limit='0,10' infolen='230'}
+                <li><a href="[field:arcurl/]" target="_blank"><img src='[field:picname /]' alt="[field:title/]"></a></li>
+            {/dede:arclist}
+        </ul>
+    </div>
+</div>

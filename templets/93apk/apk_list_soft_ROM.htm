@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.seotitle /},{dede:field name='keywords'/}" />
+<meta name="description" content="TOM猫安卓软件—实时更新的安卓软件下载、安卓游戏下载平台,手机rom下载评测基地，安卓手机刷机教程，android4.0资讯，立志做国内专业的安卓软件、安卓游戏，手机rom下载以及最权威的安卓刷机教程网站。" />
+<link href="{dede:global.cfg_templets_skin/}/style/public.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/style/club_css.css" rel="stylesheet" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/style/cate.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<!--网站头部-->
+{dede:include filename="apk_head2.htm"/}
+<!--//网站头部-->
+<!--正文开始-->
+<!--<div style="width: 948px; margin: 5px auto; background: none repeat scroll 0% 0% rgb(255, 255, 255); border: 1px solid rgb(221, 221, 221); padding: 2px;" id="topImg"><a target="_blank" href="http://huodong.5sing.com/"><img src="{dede:global.cfg_templets_skin/}/images/new_actA.jpg" alt="最专属的音乐平台，线上线下齐欢畅"></a></div>-->
+<span class="cont_tbg"></span>
+<div class="content w950">
+		<div class="cate_tags">
+			<h3>应用导航：</h3>
+		    <ul>
+			{dede:channel type='son' row='100' typeid='27'}
+			<li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+			{/dede:channel}
+			</ul>
+			<!--<br />
+			<h3>游戏导航：</h3>
+		    <ul>
+			{dede:channel type='son' row='10' typeid='2'}
+			<li><a href='[field:typeurl/]'>[field:typename/]</a></li>
+			{/dede:channel}
+			</ul>-->
+		</div>
+		<div class="left">
+		<!--软件列表-->
+			<div class="sf_rt mart10">
+				<div class="sf_rm">
+					<div class="bt1">以发布时间排序（其它机型陆续增加中...）：<em id="totalsoftnums"> </em> 
+					</div>        
+		        </div>   
+					<ul class="list_main_center">
+						{dede:list pagesize='10'}
+						<li>
+						 <a class="box91" target="_blank"  href="[field:arcurl/]" title="[field:title/]"><img src='[field:litpic/]' border='0' width='48' height='48' alt='[field:title/]'><span class="bg48_48"></span></a>                
+						 <h3 class="tit_2">
+						<a target="_blank"  href="[field:arcurl/]" title="[field:title/]">[field:title/]</a>
+					<em></em>
+				 </h3>
+				 <div class="info_0"><a target="_blank"  href="[field:arcurl/]">[field:description/]...</a></div>
+				 <div class="infoapp">
+					<em  class="todayclass">2011-09-15</em>
+					<em>下载次数：<span>802583</span>次</em>
+					<em>大小：1.40 MB</em>
+					<em class="starpad10"><i>推荐指数：</i><span class="xing5"></span></em>						
+				 </div>
+						</li>
+						{/dede:list}
+					</ul>        
+        <div class="list_main_footer">
+			<div class="green-black">
+				{dede:pagelist listitem="info,index,end,pre,next,pageno" listsize="5"/}
+			</div>
+        </div>
+    </div>
+		<div class="b3">
+			<h2><a href="http://club.5sing.com/more_club.aspx">热门软件</a></h2>
+			<ul>
+                          {dede:arclist row=8 type=image. orderby=rank titlelen=8}
+			 		<li><a href="[field:arcurl/]" target="_blank"><img src="[field:litpic/]" width="48" height="48" title="[field:title/]" /></a><br /><a href="[field:arcurl/]" target="_blank" title="[field:title/]">[field:title/]</a>[field:cilck/]</li>						
+                          {/dede:arclist}
+			
+			</ul>
+		</div>			
+		
+	</div>
+	<div class="right">
+		<!--<div class="r1"><img src="images/qz_03.gif" width="300" height="250" /></div> --><br />
+		<div class="mr_2">
+			<div class="sf_rm2">
+					<div class="bt1">安卓必备软件：<em id="totalsoftnums"> </em> 
+					</div>        
+		        </div>
+			<div class="mr_cb">
+				{dede:arclist row='10' titlelen='34' infolen='120' orderby ='click'}
+				<dl class="mr_cb_ft">
+					<dt><a href="[field:arcurl/]" target="_blank"><img alt="[field:fulltitle/]" src="[field:litpic/]" width="48" height="48" /></a></dt>
+					<dd><a href="[field:arcurl/]" target="_blank">[field:title/]</a><p>下载：[field:click/]</p></dd>
+				</dl>
+				{/dede:arclist}
+				<div class="ad_280">
+				    <!--<img src="http://static.5sing.com/images/si_161.gif" width="280" height="82" />-->
+				</div>
+			</div>
+		</div>
+		<!--分割线-->
+		<br />
+		
+		
+		<div class="r1">
+		<script type="text/javascript"><!--
+google_ad_client = "pub-6189212623583489";
+/* club_index_300_250 */
+google_ad_slot = "4615245463";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script type="text/javascript"
+src="../pagead2.googlesyndication.com/pagead/show_ads.js">
+</script>
+
+		</div>
+	</div>
+</div>
+<span class="cont_dbg"></span>
+<!--网站底部-->
+{dede:include filename="apk_footer.htm"/}
+<!--//网站底部-->
+</div>
+</body>
+</html>
+

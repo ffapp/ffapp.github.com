@@ -1,0 +1,1 @@
+﻿document.write("<a href=\"http://www.zh-cul.com\" target=\"_blank\"><img src=\"http://static.5sing.com/images/partner/images/2011090501.gif\" border=\"0\" width=\"625\" height=\"60\"></a>&nbsp;<br /><a href=\"http://www.5sing.com/hd/7year\" target=\"_blank\"><img src=\"http://static.5sing.com/images/7th_bottom.jpg\" border=\"0\" width=\"625\" height=\"60\"></a>");

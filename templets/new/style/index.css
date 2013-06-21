@@ -1,0 +1,94 @@
+﻿.globalcenter{ width:100%; height:343px; background-image:url(Images/nrbg.jpg); background-position:center; position:absolute; top:202px; left:0px; z-index:-2;}
+.center{ width:990px; height:336px; padding-top:7px; margin-left:auto; margin-right:auto;}
+.switchImg{ width:700px; height:322px; overflow:hidden; position:absolute; z-index:9; border:solid 3px #5d5d5d; float:left; white-space:nowrap;}
+.switchImg .ImgList{ width:700px; height:322px; position:absolute; overflow:hidden; z-index:9;}
+.switchImg .ImgDiv{ width:700px; height:322px; z-index:8; float:left;}
+.switchImg .ImgDiv .ImgDesc{ width:690px; height:60px; padding-left:10px; padding-top:10px; line-height:30px; color:White; position:absolute; z-index:1; cursor:pointer; margin-top:252px; margin-left:0px; background-color:Black;filter:alpha(opacity=50);opacity:0.5;}
+.switchImg .ImgNo{ width:700px; height:15px; overflow:hidden; position:absolute; margin-top:307px; margin-right:0px; z-index:10;}
+.switchImg .ImgNo .no{ width:15px; height:15px; line-height:15px; cursor:pointer; float:right; background-color:Black; color:White; z-index:10; text-align:center; margin-left:2px; }
+.switchImg .ImgNo .selno{ width:15px; height:15px; line-height:15px; cursor:pointer; float:right; background-color:#5d5d5d; color:White; z-index:10; text-align:center; margin-left:2px; }
+
+.topapp{ width:276px;  height:322px; float:right; border:solid 3px #d7d6d6; background-image:url(Images/box2bg.png);}
+.topapp .tabs{ width:264px; height:27px; overflow:hidden; padding:6px;}
+.topapp .tabs .tab1{ width:129px; height:27px; line-height:23px; text-align:center; cursor:pointer; float:left; color:#CCCCCC; background-image:url(Images/tab1.png); background-repeat:no-repeat; background-position:center top;}
+.topapp .tabs .tab2{ width:129px; height:27px; line-height:23px; text-align:center; cursor:pointer; float:left; color:#888888; background-image:url(Images/tab2.png); background-repeat:no-repeat; background-position:center top;}
+.topapp .tabs .tab3{ width:5px; height:27px; float:left;}
+.topapp .tabbox{ width:276px;overflow:hidden;}
+.topapp .tabbox .brow{ width:236px; height:28px; line-height:28px; position:relative; padding-left:40px; overflow:hidden; color:#d7d6d6; background-image:url(Images/iconbg.png); background-repeat:no-repeat;}
+.topapp .tabbox .brow a{ color:#d7d6d6; float:left;}
+.topapp .tabbox .brow .num{ width:100px; height:28px; line-height:28px; color:#f0eead; text-align:right; position:absolute; right:10px;}
+
+.blue *{color:#1d4665;}
+.blue .box3 .bar{ background-position:0px -80px; _background-position:-1px -79px;}
+.gray .box3 .bar{ background-position:0px -120px;}
+.blue .box2 .list .tabs .tab1{ background-position:-290px -80px;}
+.gray .box2 .list .tabs .tab1{ background-position:-290px -120px;}
+.blue .box2 .list .tabs .tab2{ background-position:-400px -80px;}
+.gray .box2 .list .tabs .tab2{ background-position:-400px -120px;}
+.blue .btndetails{ background-position:-510px -80px;margin-left:200px; }
+.gray .btndetails{ background-position:-510px -120px;margin-left:200px; }
+.gray *{color:#275b34;}
+.blue .bar{ background-position:0px 0px;}
+.gray .bar{ background-position:0px -40px;}
+.gray .mark{ background-position:0px -50px;}
+
+
+.box1 .bar .more{ width:200px; height:36px; line-height:40px; font-size:12px; font-weight:100; color:#666666; text-align:right; overflow:hidden; position:absolute; margin-left:740px;*margin-top:-13px; }
+.box1 .mark{ width:50px; height:50px; float:left; position:absolute; margin-top:36px; margin-left:1px; background-image:url(Images/iconbg.png); z-index:1;}
+.box1 .list{ width:968px; height:170px; background-image:url(Images/box_bg1.png); padding-left:20px;}
+.box1 .list .app{ width:108px; padding:20px 25px 0px 25px;float:left;}
+.box1 .list .app .img{ width:108px; height:108px; position:relative; cursor:pointer;}
+.box1 .list .app .desc{ width:108px; height:30px; line-height:30px; text-align:center; overflow:hidden;}
+.box1 .links{ width:958px; padding:10px 10px; overflow:hidden;}
+.box1 .links .link{  padding-right:10px; line-height:30px; float:left;}
+
+.box2 .bar .tabs{ width:100px; height:27px; position:absolute; margin-top:9px;*margin-top:-3px; margin-left:580px; font-size:12px;}
+.box2 .list{ width:710px; overflow:hidden;}
+.box2 .list .tabs{ width:104px;  float:left; overflow:hidden; background-color:#f2f5f7;}
+.box2 .list .tabs .tab1{ width:104px; height:34px; line-height:34px; cursor:pointer; text-align:center; background-image:url(Images/imgbg.png); color:Yellow; font-weight:bold;}
+.box2 .list .tabs .tab2{ width:74px; height:34px; line-height:34px; cursor:pointer; padding-left:30px; background-image:url(Images/imgbg.png); border-bottom:solid 1px #c4d5df;}
+.box2 .list .appboxs{ width:604px;min-height:410px; _height:410px; overflow: visible; float:right;border-right:solid 1px #c4d5df;border-left:solid 1px #c4d5df; background-image:url(../../../../img.baidu.com/img/image/loading_detail.gif); background-repeat:no-repeat; background-position:center;}
+.box2 .list .appboxs .applist{ width:604px; float:right; overflow:hidden; background-color:White;}
+.box2 .list .appboxs2{ width:712px; border-bottom:solid 1px #c4d5df; overflow:hidden;}
+.box2 .list .appboxs2 .applist2{ width:355px; border-right:solid 1px #c4d5df; overflow:hidden; float:left;}
+
+.applist2 .top{ width:330px; height:36px; line-height:36px; padding-left:24px; font-weight:bold; background-image:url(Images/imgbg.png); background-position:-1px -160px;}
+.applist2 .top .more{ width:100px; height:36px; line-height:36px; padding-right:10px; text-align:right; font-weight:100; position:absolute; margin-left:220px; *margin-top:-11px; text-align:right;}
+.applist2 .list2{ width:354px; padding:5px; height:113px; overflow:hidden;}
+.applist2 .list2 .item2{ width:70px; padding:8px;float:left; overflow:hidden;}
+.applist2 .list2 .item2 .appimg{ width:67px; height:67px; cursor:pointer; position:relative; margin-left:auto; margin-right:auto;}
+.applist2 .list2 .item2 .appname{ width:70px; height:30px; line-height:30px; overflow:hidden; text-align:center;}
+
+.box3 .bar .tabs{ width:100px; height:27px; position:absolute; margin-top:9px;*margin-top:-3px; margin-left:145px; font-size:12px;}
+.box3 .list{ width:258px; padding:10px 10px 0px 10px; }
+.box3 .list .brow{ width:233px; height:28px; line-height:28px; border-bottom:dashed 1px #c4d5df; padding-left:25px; overflow:hidden; color:#888888; background-image:url(Images/iconbg.png); background-repeat:no-repeat; }
+.box3 .list .brow .num{width:100px; height:28px; line-height:28px; color:#8e4519; font-size:14px; text-align:right; position:absolute; margin-left:126px;}
+.box3 .list2{ width:277px; background-color:#f7f7f4; overflow:visible; min-height:862px;_height:862px; border-left:solid 1px #c4d5df; color:#516282; margin-top:-1px;}
+.box3 .list2 .l2_title{ width:277px; height:33px; line-height:33px; font-weight:bold; background-image:url(Images/imgbg.png); background-position:-590px -160px; text-align:center;}
+.box3 .list2 .conter{ width:257px; padding:10px; overflow:hidden;}
+.box3 .list2 .conter .item{ width:75px; padding-left:10px; float:left; line-height:30px; background-image:url(Images/iconbg.png); background-position:0px -97px; background-repeat:no-repeat;}
+
+
+.msgbox{ width:710px; height:65px; overflow:hidden; background-image:url(Images/msgbg.jpg);}
+.msgbox .msg{ width:710px; height:50px; line-height:25px; z-index:9; text-align:center; padding-top:7px; color:#ffe400; position:absolute; }
+.msgbox .close{ width:13px; height:13px; position:absolute; z-index:10; margin-left:690px; margin-top:5px; background-image:url(Images/iconbg.png); cursor:pointer; background-position:-210px 0px; _background-position:-209px 0px; }
+
+.bar .tabs .tab1{ width:40px; height:27px; line-height:27px; text-align:center; float:left; cursor:pointer; background-image:url(Images/imgbg.png); background-position:-590px -80px;}
+.bar .tabs .tab2{ width:40px; height:27px; line-height:27px; text-align:center; float:left; cursor:pointer;background-image:none; font-weight:100;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

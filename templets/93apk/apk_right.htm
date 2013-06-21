@@ -1,0 +1,69 @@
+<div id="aside">
+    <!--category begin-->
+    	<div class="category">
+            <div class="G-title">
+                <h3><span>安卓软件分类</span></h3>
+                <div class="ft"></div>
+            </div>
+            <div class="G-panelbg">
+            	<ul class="G-panel bd">  
+				 {dede:channel type='son' row='20' typeid='2'}         	            	        
+				<li ><a href="[field:typelink/]" title="[field:typename/]">[field:typename/]<i>[field:ID runphp='yes'] @me = GetTotalArc(@me);[/field:ID]</i></a></li>
+
+				{/dede:channel}
+                <li class="total"><a href="http://www.yes-tom.com/93apk/game/">点击这里下载安卓游戏</a></li>
+                </ul>
+            </div>
+        </div>
+        <!--category end-->
+		<div class="top10-list">
+            <div class="G-title">
+                <h3><a href="#" title="网络软件最近更新">赞助商广告</a></h3>
+                <div class="ft"></div>
+            </div>
+            <div class="G-panelbg">
+            <script type="text/javascript">/*250*250，创建于2011-10-14*/ var cpro_id = 'u643226';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script>	
+            </div>
+        </div>
+        <!--top10list begin-->
+        <div class="top10-list">
+            <div class="G-title">
+                <h3><a href="/93apk/app/" title="网络软件本周下载排行">应用下载排行</a></h3>
+                <div class="ft"></div>
+            </div>
+            <div class="G-panelbg">
+            	<ul class="G-panel"> 
+				{dede:arclist row='3' titlelen='48' limit='0,3' typeid='2' orderby ='click'}
+				 <li><i class="o">[field:global.autoindex/]</i><a href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></li>
+				{/dede:arclist}
+				{dede:arclist row='7' titlelen='48' limit='3,7' typeid='2' orderby ='click'}
+				 <li><i>[field:global name=autoindex runphp='yes']@me=@me+3;[/field:global]</i><a href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></li>
+				{/dede:arclist}
+                  </ul>
+            </div>
+        </div>
+        <!--top10list end-->
+         <!--top10list begin-->
+        <div class="top10-list">
+            <div class="G-title">
+                <h3><a href="/93apk/game/" title="网络软件精品推荐">游戏下载排行</a></h3>
+                <div class="ft"></div>
+            </div>
+            <div class="G-panelbg">
+            	<ul class="G-panel"> 
+				{dede:arclist row='3' titlelen='48' limit='0,3' typeid='3' orderby ='click'}
+				 <li><i class="o">[field:global.autoindex/]</i><a href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></li>
+				{/dede:arclist}
+				{dede:arclist row='7' titlelen='48' limit='3,7' typeid='3' orderby ='click'}
+				 <li><i>[field:global name=autoindex runphp='yes']@me=@me+3;[/field:global]</i><a href="[field:arcurl/]" title="[field:fulltitle/]">[field:title/]</a></li>
+				{/dede:arclist}
+                  </ul>
+            </div>
+        </div>
+        <!--top10list end-->
+         <!--top10list begin-->
+        
+        <!--top10list end-->
+        <!--<div class="suggest">
+    <a href="#" target="_blank">关注我们</a>
+</div>-->    </div>

@@ -1,0 +1,54 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset={dede:global.cfg_soft_lang/}" />
+<title>{dede:field.title/}_{dede:global.cfg_webname/}</title>
+<meta name="keywords" content="{dede:field.keywords/}" />
+<meta name="description" content="{dede:field.description function='html2text(@me)'/}" />
+<link href="{dede:global.cfg_templets_skin/}/style/update.css" rel="stylesheet" media="screen" type="text/css" />
+<link href="{dede:global.cfg_templets_skin/}/style/dedecms.css" rel="stylesheet" media="screen" type="text/css" />
+<!--[if ie 6]>
+<link href="{dede:global.cfg_templets_skin/}/style/SongPlay10_ie6.css" type="text/css" rel="stylesheet" />
+<![endif]-->
+</head>
+<body>
+<!--网站头部-->
+{dede:include filename="apk_head.htm"/}
+<!--//网站头部-->
+ <div id="wrapper">
+<!--最新更新列表-->
+<DIV class=topbar>
+	<DIV class=place10><SPAN class=home10></SPAN><A title=安卓应用市场首页 href="{dede:global.cfg_cmsurl/}/">首页</A>&gt; 今天更新</DIV>
+		<UL class=navr_text>
+		  <LI><A class=now title=全部 href="http://www.93apk.com/93apk/Today/">全部</A></LI>
+			{dede:channel type='son' typeid='4' row='10'}
+		  <LI><A title=[field:typename/] href="[field:typeurl/]">[field:typename/]</A> </LI>
+			{/dede:channel}
+		</UL>
+	</DIV>
+	<DIV class=datelist>
+		<UL class=listapp>
+		{dede:arclist row='1000' titlelen='28' typeid='1,2,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,27,32,33' orderby ='pubdate'}
+		  <LI><A class=applink title='[field:title/]' href="[field:arcurl/]" target=_blank>
+			  <IMG class=imgapp src="[field:litpic/]"> 
+				<SPAN class=bg48_48_gray></SPAN>
+				<H3 class=appname><EM>[field:title/]</EM></H3>
+			<DIV class=comment_time><FONT color=red>[field:pubdate function="MyDate('m-d H:i',@me)"/]</FONT>
+				  <BR>所属分类：[field:typename/] 
+			</DIV>
+			</A>
+		</LI>
+	  {/dede:arclist}
+  </UL>
+  </DIV>
+  <DIV class=ft960_67></DIV>
+  
+<!--footer-->
+	<div id="footer">
+    	<div class="foot-nav"></div>
+        {dede:include filename="apk_footer.htm"/}
+    </div>
+</div>
+</div> 
+</body>
+</html>

@@ -1,0 +1,41 @@
+<div class="M3">
+	<div class="about FL">
+    	<div class="M3_t">About Us</div>
+        <ul>
+        	<li>·<a href="/93apk/about.html" target="_blank">关于本站</a></li>
+            <li>·<a href="/93apk/shengming.html" target="_blank">版权与免责声明</a></li>
+            <li>·<a href="/93apk/lianxi.html" target="_blank">联系我们</a></li>
+            <li>·<a href="/data/sitemap.html" target="_blank">网站地图</a></li> 
+            <li>·<a href="/plus/flink.php" target="_blank">友情链接</a></li>
+            <li>·<a href="/tags.php" target="_blank">Tag标签</a></li>
+        </ul>
+    </div>
+    <div class="flink FL">
+    	<div class="M3_t">Links</div>
+        <ul>
+        	{dede:flink row='24'/}
+        </ul>
+    </div>
+    <div class="tags FL">
+    	<div class="M3_t">Tags</div>
+        {dede:tag row='25'' getall='1' sort='month'}
+            <a href='[field:link/]' target="_blank">[field:tag /]</a>
+        {/dede:tag}
+    </div>
+    <div class="clear"></div>
+</div>
+<div class="shengming"><span><a href="javascript:scroll(0,0)"><img src="http://www.mubanzhijia.com/templets/default/css_mubanzhijia/images/top.gif" alt="返回顶部" /></a></span>
+声明：本站所有软件/文章除标明原创外，均来自网络转载或网友投稿，版权归原作者所有，如果有侵犯到您的权益，请联系本站删除，谢谢合作！
+</div>
+
+<div class="footer">
+<p><a href="/app/" target="_blank">安卓软件</a> | <a href="/game/" target="_blank">安卓游戏</a> | <a href="/news/" target="_blank">业界资讯</a></p>
+<p>{dede:global.cfg_powerby/}</p>
+<p>Powered by <a href="http://www.mubanzhijia.com" target="_blank">DedeCMS</a>, Theme by 哇牛科技.<script src="http://s21.cnzz.com/stat.php?id=3477299&web_id=3477299" language="JavaScript"></script></p>
+<p>{dede:global.cfg_beian/}</p>
+</div>
+<script type="text/javascript">
+document.body.oncopy = function () { setTimeout( function () { var text = clipboardData.getData("text"); if (text) { text = text + "\r\n本篇文章来源于 {dede:global.cfg_basehost/} 详细请参考："+location.href; clipboardData.setData("text", text); } }, 100 ) }
+</script>
+
+

@@ -1,0 +1,17 @@
+<div class="M2_R FL">
+    	<div class="M2_R_t1"><h3 class="rec">主编推荐</h3></div>
+        <ul class="M2_R_box2">
+        	{dede:arclist flag='c' titlelen=12 row='9' orderby='pubdate' typeid='6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26'}
+        	<li><a href="[field:arcurl/]" target="_blank"><img src='[field:picname /]' alt="[field:fulltitle/]"></a><p><a title="[field:fulltitle/]" href="[field:arcurl/]" target="_blank">[field:title/]</a></p></li>		
+            {/dede:arclist}
+            <div class="clear"></div>
+        </ul>
+        <div class="M2_R_ad"><script type="text/javascript">/*300*250，创建于2011-10-14全站右侧*/ var cpro_id = 'u643226';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script></div>
+        <div class="M2_R_t3">下载排行</div>
+        <ul class="M2_R_box3">
+        	{dede:arclist row=10 orderby=click typeid='6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26' titlelen=40}
+             <li><a title="[field:fulltitle/]" href="[field:arcurl/]" target="_blank">[field:title/]</a>下载：[field:click/]次</li>
+            {/dede:arclist}
+            <div class="clear"></div>
+        </ul>
+    </div>

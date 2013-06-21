@@ -1,0 +1,143 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{dede:global.cfg_webname/}</title>
+<meta name="description" content="{dede:global.cfg_description/}" />
+<meta name="keywords" content="{dede:global.cfg_keywords/}" />
+<link href="{dede:global.cfg_templets_skin/}/css/style.css" rel="stylesheet" type="text/css"/>
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.js" type="text/javascript"></script>
+<script src="{dede:global.cfg_templets_skin/}/js/imglazyload.js" type="text/javascript"></script>
+<script src="{dede:global.cfg_templets_skin/}/js/jquery-1.4a2.min.js" type="text/javascript"></script>
+<script src="{dede:global.cfg_templets_skin/}/js/jquery.KinSlideshow-1.2.1.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+$(function(){
+	$("#KinSlideshow").KinSlideshow({
+			moveStyle:"right",
+			titleBar:{titleBar_height:30,titleBar_bgColor:"#000000",titleBar_alpha:0.5},
+			titleFont:{TitleFont_size:12,TitleFont_color:"#FFFFFF",TitleFont_weight:"normal"},
+			btn:{btn_bgColor:"#FFFFFF",btn_bgHoverColor:"#2f7c00",btn_fontColor:"#000000",btn_fontHoverColor:"#FFFFFF",btn_borderColor:"#FFFFFF",btn_borderHoverColor:"#2f7c00",btn_borderWidth:1}
+	});
+})
+</script>
+<script type="text/javascript" language="javascript">	
+$(function(){	
+	$("#navUl li").click(function(){$("#navUl li").removeClass();$(this).addClass("nav_after");});
+	$('#top').click(function(){$('html,body').animate({scrollTop: '0px'}, 700);return false;});
+});
+</script>
+<!--[if IE 6]>
+	<script type="text/javascript" src="{dede:global.cfg_templets_skin/}/js/DD_belatedPNG.js" ></script>
+	<script type="text/javascript">
+	DD_belatedPNG.fix('.M1,#mbzj,.M1_tb_img');
+	</script>
+	<![endif]-->
+
+</head>
+<body>
+{dede:include filename="anz_head.htm"/}
+<div class="M2">
+	<div class="M2_L FL">
+    	<div class="M2_L_t1_ M2_L_t1 M2_L_T">
+        	<span><a href="/93apk/app/" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/more.gif" alt="更多" /></a></span>
+            <a href="/93apk/app/" target="_blank">热门软件下载</a>
+        </div>
+        <ul class="M2_L_box">
+        	{dede:arclist titlelen='10' row='12' orderby='hot' typeid='2' }
+                <li>
+                    <p><a href="[field:arcurl /]" target="_blank"><img src='[field:picname /]' alt="[field:fulltitle/]"></a></p>
+                    <p><a title="[field:fulltitle/]" href="[field:arcurl /]" target="_blank">[field:title/]</a></p>
+                    <div class="date">[field:typename/]</div>
+                </li>
+            {/dede:arclist}
+            <div class="clear"></div>
+        </ul>
+		
+		
+        <div class="M2_L_t2_ M2_L_t2 M2_L_T">
+        	<span><a href="/93apk/game/" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/more.gif" alt="更多" /></a></span>
+            <a href="/93apk/game/" target="_blank">热门游戏下载</a>
+        </div>
+        <ul class="M2_L_box">
+        	{dede:arclist titlelen='10' row='12' orderby='hot' typeid='3' }
+                <li>
+                    <p><a href="[field:arcurl /]" target="_blank"><img src='[field:picname /]' alt="[field:fulltitle/]"></a></p>
+                    <p><a title="[field:fulltitle/]" href="[field:arcurl /]" target="_blank">[field:title/]</a></p>
+                    <div class="date">[field:typename/]</div>
+                </li>
+            {/dede:arclist}
+            <div class="clear"></div>
+        </ul>
+<div class="M2_L_t2_ M2_L_t2 M2_L_T">
+        	<span><a href="/game/" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/more.gif" alt="更多" /></a></span>
+            <a href="#" target="_blank">最近更新</a>
+        </div>		
+<ul class="M2_L_box">
+        	{dede:arclist titlelen='10' row='36' orderby='pubdate' typeid='2,3' }
+                <li>
+                    <p><a href="[field:arcurl /]" target="_blank"><img src='[field:picname /]' alt="[field:fulltitle/]"></a></p>
+                    <p><a title="[field:fulltitle/]" href="[field:arcurl /]" target="_blank">[field:title/]</a></p>
+                    <div class="date">[field:pubdate runphp='yes']
+$a="<font color=red>".strftime('%m-%d',@me)."</font>";
+$b=strftime('%m-%d',@me);
+$ntime = time();
+$day3 = 3600 * 24;
+if(($ntime - @me) < $day3) @me = $a;
+else @me =$b;
+[/field:pubdate]</div>
+                </li>
+            {/dede:arclist}
+            <div class="clear"></div>
+        </ul>
+		
+				
+        <!--<div class="M2_L_t3_ M2_L_t3 M2_L_T FL">
+        	<span><a href="/app/" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/more.gif" alt="更多" /></a></span>
+            <a href="/app/" target="_blank">最新安卓软件</a>
+        </div>
+        <div class="M2_L_t4_ M2_L_t3 M2_L_T FR">
+        	<span><a href="/game/" target="_blank"><img src="{dede:global.cfg_templets_skin/}/images/more.gif" alt="更多" /></a></span>
+            <a href="/game/" target="_blank">最新安卓游戏</a>
+        </div>
+        <ul class="M2_L_box2 FL">
+        	{dede:arclist titlelen='42' row='10'}
+        	<li><span>[field:pubdate function="MyDate('m/d',@me)"/]</span>·<a title="[field:fulltitle/]" href="[field:arcurl /]" target="_blank">[field:title /]</a></li>
+            {/dede:arclist}
+        </ul>
+        <ul class="M2_L_box2 FR">
+        	{dede:arclist titlelen='42' row='10'}
+        	<li><span>[field:pubdate function="MyDate('m/d',@me)"/]</span>·<a title="[field:fulltitle/]" href="[field:arcurl /]" target="_blank">[field:title /]</a></li>
+            {/dede:arclist}
+        </ul>-->
+    </div>
+    <div class="M2_R FL">
+    	<div class="M2_R_t1"><h3 class="top">最新业界资讯 玩机教程</h3></div>
+        <ul class="M2_R_box1">
+        	{dede:arclist row=6 titlelen=28 typeid=1,29}
+            <li>[<span>[field:typelink/]</span>] <a title="[field:fulltitle/]" href="[field:arcurl/]" target="_blank">[field:title/]</a> [field:pubdate function="MyDate('m/d',@me)"/]</li>
+            {/dede:arclist}
+        </ul>
+        <div class="M2_R_ad"><script type="text/javascript">/*300*250，创建于2011-10-14全站右侧*/ var cpro_id = 'u643226';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script></div>
+        <div class="M2_R_t2">主编推荐</div>
+        <ul class="M2_R_box2">
+        	{dede:arclist flag='c' titlelen=12 row='9' orderby='pubdate'}
+        	<li><a href="[field:arcurl/]" target="_blank"><img src='[field:picname /]' alt="[field:fulltitle/]"></a><p><a title="[field:fulltitle/]" href="[field:arcurl/]" target="_blank">[field:title/]</a></p></li>		
+            {/dede:arclist}
+            <div class="clear"></div>
+        </ul>
+        <div class="M2_R_t3">下载排行</div>
+        <ul class="M2_R_box3">
+        	{dede:arclist row=10 orderby=click typeid='1,2' titlelen=40}
+             <li><a title="[field:fulltitle/]" href="[field:arcurl/]" target="_blank">[field:title/]</a>下载：[field:click/]次</li>
+            {/dede:arclist}
+            <div class="clear"></div>
+        </ul>
+    </div><div class="M2_R_ad"><script type="text/javascript">/*300*250，创建于2011-12-16*/ var cpro_id = 'u713957';</script><script src="http://cpro.baidu.com/cpro/ui/c.js" type="text/javascript"></script></div>
+	
+    <div class="clear"></div>
+</div>
+{dede:include filename="anz_footer.htm"/}
+<!-- /footer -->
+</body>
+</html>
+
