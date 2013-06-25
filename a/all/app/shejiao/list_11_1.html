@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>所有文章  /  FF应用  /  社交网络_Firefox Appstore</title>
+<title>所有文章  /  FF应用  /  社交网络_Firefox Appstore - 火狐手机应用市场</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link rel="Stylesheet" href="/templets/new/style/main.css" />
@@ -47,54 +47,6 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                     
                 </div>
             </div>
-            <script type="text/javascript">
-                function onkeyEnter() {
-                    var evt = GetEvent();
-                    if (evt.keyCode == 13) {
-                        serach();
-                        return false;
-                    }                 
-                }
-                function txton(obj, t) {
-                    switch (t) {
-                        case "1":
-                            if (obj.value == "输入你要查找的关键字") {
-                                obj.value = "";
-                            }
-                            break;
-                        case "2":
-                            if (obj.value == "") {
-                                obj.value = "输入你要查找的关键字";
-                            }
-                            break;
-                    }
-                }
-                function serach() {
-                    var keys = $get("txt_key").value;
-                    DataService.App360WebService.App360HotSearchStat(keys, serach_returnfun, returnnull);
-                    
-                }
-                function serach_returnfun(result) {
-                    if (result.IsSuccess) {
-                        window.location.href = "/searchkey?keywords=" + $get("txt_key").value;
-                    } else {
-                        alert(result.Message);
-                    }
-                }
-
-                function returnnull() {
-                }
-                $(function () {
-                    var url = window.location.href;
-                    if (url.toLowerCase().indexOf("help/iphone") > -1) {
-                        switchTopTab("iPhoneNovice");
-                    } else if (url.toLowerCase().indexOf("iphone") > -1) {
-                        switchTopTab("iPhone");
-                    } else if (url.toLowerCase().indexOf("ipad") > -1) {
-                        //switchTopTab("iPad");
-                    }
-                })
-            </script>
         </div>
         <div id="nav">
             <div id="nav_menu_iPhone" class="menu" onmouseover="switchTopTab('iPhone')">
@@ -135,7 +87,7 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                                             图书阅读</a></div>
                                
                                     <div><a href="/a/all/app/zixun/">
-                                            新闻资讯</a></div>
+                                            新闻天气</a></div>
                                
                                     <div><a href="/a/all/app/camera/">
                                             拍摄美化</a></div>
@@ -308,15 +260,7 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
             return document.getElementById(id);
         }
 
-        function switchTopTab(p) {
-//            $get("nav_menu_iPhone").className = "";
-////            $get("nav_menu_iPad").className = "";
-//            $get("nav_menu_" + p).className = "menu";
 
-//            $get("nav_iPhone").style.display = "none";
-////            $get("nav_iPad").style.display = "none";
-//            $get("nav_" + p).style.display = "block";
-        }
     </script>
     <div id="main">
         <div class="appbox_border_bottom"></div>
@@ -326,13 +270,204 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                     <div class="bar" style="width: 717px; color: #0f4374; font-size: 12px;">
                         <a href='http://www.ffapp.info/'>主页</a> > <a href='/a/all/'>所有文章</a> > <a href='/a/all/app/'>FF应用</a> > <a href='/a/all/app/shejiao/'>社交网络</a> > </div>
                     <div class="app_list2">
-                            
+                            <div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1932.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1932.html" target="_blank">
+                                            Vickyjr</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：下载安装应用...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1930.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1930.html" target="_blank">
+                                            jamie4</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：Join the millions of people on MocoSpace who chat, meet new people, play games, flirt and even fall in love! No matter who or what you're looking for, there are thousands of REAL people online right now. Free to download and - unlike other...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1931.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1931.html" target="_blank">
+                                            G-Media</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：G-BRID is a community site of new sense using location information services of mobile phone.\n\nThis is a free community site which allows sending and receiving message to communicate with each other from your current location to people who...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1926.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1926.html" target="_blank">
+                                            earliz</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：Earliz is the complete solution to manage all your projects with Agile methods and improve your corporate communication.\n\n- Unlimited users\n- Unlimited projects pro\n- Private social network\n- Documents sharing and file storage\n\nProdu...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1927.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1927.html" target="_blank">
+                                            G-Media</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：G-Sky is a community site of new sense using location information services of mobile phone for gay.\n\nThis is a free community site which allows sending and receiving message to communicate with each other from your current location to peo...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1928.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1928.html" target="_blank">
+                                            intracloudinfo</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：FREE for up to 10 users. \n\nWith IntraCloud-service you can easily put your company's important information accessible to your every employee. IntraCloud is super simple to use and there is none of not-so-important features. If you have so...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1929.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1929.html" target="_blank">
+                                            WebAppGenerator</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：下载安装应用...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1925.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1925.html" target="_blank">
+                                            Toshiyuki Tanaka</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：Flend is a service to promote lending and borrowing in friends of FaceBook. With Flend, you will be able to, such as:\ncan show what may be lent to a friend,\ncan know what your friends may lend,\ncan says Lend! to item that friends has per...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1923.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1923.html" target="_blank">
+                                            carlocolombo</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：Thin Foursquare client (only checkins are possible ) 下载安装应用...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/app/shejiao/2013/0625/1924.html')"  title="阅读全文" ></div>
+										<img src='/templets/new/images/none.jpg' width=108 height=108 />
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/app/shejiao/2013/0625/1924.html" target="_blank">
+                                            acheevbhagat</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：下载安装应用...
+                                        </div>
+                                    </div>
+                                </div>
                         <style type="text/css">
                             .page a{ border-width:0px;}
                         </style>
                         <div class="page" >
 <div id="ctl00_ContentPlaceHolder1_AspNetPager" align="center">
-<li><span class="pageinfo">共 <strong>0</strong>页<strong>0</strong>条记录</span></li>
+<li>首页</li>
+<li class="thisclass">1</li>
+<li><a href='list_11_2.html'>2</a></li>
+<li><a href='list_11_3.html'>3</a></li>
+<li><a href='list_11_4.html'>4</a></li>
+<li><a href='list_11_5.html'>5</a></li>
+<li><a href='list_11_6.html'>6</a></li>
+<li><a href='list_11_7.html'>7</a></li>
+<li><a href='list_11_8.html'>8</a></li>
+<li><a href='list_11_2.html'>下一页</a></li>
+<li><a href='list_11_8.html'>末页</a></li>
+<li><span class="pageinfo">共 <strong>8</strong>页<strong>80</strong>条</span></li>
 
 </div>
                         </div>
