@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>所有文章  /  FirefoxOS资讯_Firefox Appstore</title>
+<title>所有文章  /  FirefoxOS资讯_Firefox Appstore - 火狐手机应用市场</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link rel="Stylesheet" href="/templets/new/style/main.css" />
@@ -47,54 +47,6 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                     
                 </div>
             </div>
-            <script type="text/javascript">
-                function onkeyEnter() {
-                    var evt = GetEvent();
-                    if (evt.keyCode == 13) {
-                        serach();
-                        return false;
-                    }                 
-                }
-                function txton(obj, t) {
-                    switch (t) {
-                        case "1":
-                            if (obj.value == "输入你要查找的关键字") {
-                                obj.value = "";
-                            }
-                            break;
-                        case "2":
-                            if (obj.value == "") {
-                                obj.value = "输入你要查找的关键字";
-                            }
-                            break;
-                    }
-                }
-                function serach() {
-                    var keys = $get("txt_key").value;
-                    DataService.App360WebService.App360HotSearchStat(keys, serach_returnfun, returnnull);
-                    
-                }
-                function serach_returnfun(result) {
-                    if (result.IsSuccess) {
-                        window.location.href = "/searchkey?keywords=" + $get("txt_key").value;
-                    } else {
-                        alert(result.Message);
-                    }
-                }
-
-                function returnnull() {
-                }
-                $(function () {
-                    var url = window.location.href;
-                    if (url.toLowerCase().indexOf("help/iphone") > -1) {
-                        switchTopTab("iPhoneNovice");
-                    } else if (url.toLowerCase().indexOf("iphone") > -1) {
-                        switchTopTab("iPhone");
-                    } else if (url.toLowerCase().indexOf("ipad") > -1) {
-                        //switchTopTab("iPad");
-                    }
-                })
-            </script>
         </div>
         <div id="nav">
             <div id="nav_menu_iPhone" class="menu" onmouseover="switchTopTab('iPhone')">
@@ -135,7 +87,7 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                                             图书阅读</a></div>
                                
                                     <div><a href="/a/all/app/zixun/">
-                                            新闻资讯</a></div>
+                                            新闻天气</a></div>
                                
                                     <div><a href="/a/all/app/camera/">
                                             拍摄美化</a></div>
@@ -308,15 +260,7 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
             return document.getElementById(id);
         }
 
-        function switchTopTab(p) {
-//            $get("nav_menu_iPhone").className = "";
-////            $get("nav_menu_iPad").className = "";
-//            $get("nav_menu_" + p).className = "menu";
 
-//            $get("nav_iPhone").style.display = "none";
-////            $get("nav_iPad").style.display = "none";
-//            $get("nav_" + p).style.display = "block";
-        }
     </script>
     <div id="main">
         <div class="appbox_border_bottom"></div>
@@ -327,6 +271,42 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                         <a href='http://www.ffapp.info/'>主页</a> > <a href='/a/all/'>所有文章</a> > <a href='/a/all/ffzixun/'>FirefoxOS资讯</a> > </div>
                     <div class="app_list2">
                             <div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/ffzixun/2013/0621/1644.html')"  title="阅读全文" ></div>
+										<a href='/a/all/ffzixun/2013/0621/1644.html' class='preview'><img src='/uploads/allimg/130621/16212a926-0-lp.jpg' width=108 height=108 /></a>
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/ffzixun/2013/0621/1644.html" target="_blank">
+                                            阿尔卡特推出Firefox OS手机 系统简洁有点慢</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：在西班牙MWC大展上，阿尔卡特推出采用Firefox OS系统的智能手机One Touch Fire，Firefox OS是今天正式推出的新系统操作系统。One Touch Fire采用了3.5寸显示屏，塑料外壳，圆角，外观有朝气。它...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
+                                    <div class="row_left_128">
+                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/ffzixun/2013/0621/1643.html')"  title="阅读全文" ></div>
+										<a href='/a/all/ffzixun/2013/0621/1643.html' class='preview'><img src='/uploads/allimg/130621/114554OW-0-lp.jpg' width=108 height=108 /></a>
+                                    </div>
+                                    <div class="row_right_600">
+                                        <div class="row_title">
+                                            <a href="/a/all/ffzixun/2013/0621/1643.html" target="_blank">
+                                            Firefox手机系统:运营商们的另类产物</a></div>
+                                        <div class="row_desc">
+                                            <div class="star" style=" margin-left:40px;">
+                                                <div class="star1"></div>
+                                                <div class="star2"></div>
+                                                <div class="starnum">4.5</div>
+                                            </div>
+                                            简介：【PConline 杂谈】2月25日，Mozilla在西班牙正式推出Firefox移动操作系统，并宣称已经有包括 中国联通 在内的18个运营商支持Firefox OS，并有 阿尔卡特 、中兴、LG、华为、索尼的硬件厂商支...
+                                        </div>
+                                    </div>
+                                </div><div class="row">
                                     <div class="row_left_128">
                                         <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/ffzixun/2013/0620/13.html')"  title="阅读全文" ></div>
 										<img src='/templets/new/images/none.jpg' width=108 height=108 />
@@ -458,7 +438,7 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                         </style>
                         <div class="page" >
 <div id="ctl00_ContentPlaceHolder1_AspNetPager" align="center">
-<li><span class="pageinfo">共 <strong>1</strong>页<strong>7</strong>条记录</span></li>
+<li><span class="pageinfo">共 <strong>1</strong>页<strong>9</strong>条记录</span></li>
 
 </div>
                         </div>

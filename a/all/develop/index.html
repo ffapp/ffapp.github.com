@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>所有文章  /  FirefoxOS开发者_Firefox Appstore</title>
+<title>所有文章  /  FirefoxOS开发者_Firefox Appstore - 火狐手机应用市场</title>
 <meta name="keywords" content="" />
 <meta name="description" content="" />
 <link rel="Stylesheet" href="/templets/new/style/main.css" />
@@ -47,54 +47,6 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                     
                 </div>
             </div>
-            <script type="text/javascript">
-                function onkeyEnter() {
-                    var evt = GetEvent();
-                    if (evt.keyCode == 13) {
-                        serach();
-                        return false;
-                    }                 
-                }
-                function txton(obj, t) {
-                    switch (t) {
-                        case "1":
-                            if (obj.value == "输入你要查找的关键字") {
-                                obj.value = "";
-                            }
-                            break;
-                        case "2":
-                            if (obj.value == "") {
-                                obj.value = "输入你要查找的关键字";
-                            }
-                            break;
-                    }
-                }
-                function serach() {
-                    var keys = $get("txt_key").value;
-                    DataService.App360WebService.App360HotSearchStat(keys, serach_returnfun, returnnull);
-                    
-                }
-                function serach_returnfun(result) {
-                    if (result.IsSuccess) {
-                        window.location.href = "/searchkey?keywords=" + $get("txt_key").value;
-                    } else {
-                        alert(result.Message);
-                    }
-                }
-
-                function returnnull() {
-                }
-                $(function () {
-                    var url = window.location.href;
-                    if (url.toLowerCase().indexOf("help/iphone") > -1) {
-                        switchTopTab("iPhoneNovice");
-                    } else if (url.toLowerCase().indexOf("iphone") > -1) {
-                        switchTopTab("iPhone");
-                    } else if (url.toLowerCase().indexOf("ipad") > -1) {
-                        //switchTopTab("iPad");
-                    }
-                })
-            </script>
         </div>
         <div id="nav">
             <div id="nav_menu_iPhone" class="menu" onmouseover="switchTopTab('iPhone')">
@@ -135,7 +87,7 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                                             图书阅读</a></div>
                                
                                     <div><a href="/a/all/app/zixun/">
-                                            新闻资讯</a></div>
+                                            新闻天气</a></div>
                                
                                     <div><a href="/a/all/app/camera/">
                                             拍摄美化</a></div>
@@ -308,15 +260,7 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
             return document.getElementById(id);
         }
 
-        function switchTopTab(p) {
-//            $get("nav_menu_iPhone").className = "";
-////            $get("nav_menu_iPad").className = "";
-//            $get("nav_menu_" + p).className = "menu";
 
-//            $get("nav_iPhone").style.display = "none";
-////            $get("nav_iPad").style.display = "none";
-//            $get("nav_" + p).style.display = "block";
-        }
     </script>
     <div id="main">
         <div class="appbox_border_bottom"></div>
@@ -326,103 +270,13 @@ var __cultureInfo = {"name":"zh-CN","numberFormat":{"CurrencyDecimalDigits":2,"C
                     <div class="bar" style="width: 717px; color: #0f4374; font-size: 12px;">
                         <a href='http://www.ffapp.info/'>主页</a> > <a href='/a/all/'>所有文章</a> > <a href='/a/all/develop/'>FirefoxOS开发者</a> > </div>
                     <div class="app_list2">
-                            <div class="row">
-                                    <div class="row_left_128">
-                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/develop/ziyuan/2013/0620/1615.html')"  title="阅读全文" ></div>
-										<img src='/templets/new/images/none.jpg' width=108 height=108 />
-                                    </div>
-                                    <div class="row_right_600">
-                                        <div class="row_title">
-                                            <a href="/a/all/develop/ziyuan/2013/0620/1615.html" target="_blank">
-                                            开发者必备手册：Firefox OS系统全面分析</a></div>
-                                        <div class="row_desc">
-                                            <div class="star" style=" margin-left:40px;">
-                                                <div class="star1"></div>
-                                                <div class="star2"></div>
-                                                <div class="starnum">4.5</div>
-                                            </div>
-                                            简介：开发者必备手册：Firefox OS系统全面分析-魔智网Firefox OS技术资源为您提供火狐OS手机ROM应用软件游戏下载，分享firefox os手机平板root刷机教程，火狐firefox手机平板系统机型教程资讯等。...
-                                        </div>
-                                    </div>
-                                </div><div class="row">
-                                    <div class="row_left_128">
-                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/develop/ziyuan/2013/0620/1616.html')"  title="阅读全文" ></div>
-										<img src='/templets/new/images/none.jpg' width=108 height=108 />
-                                    </div>
-                                    <div class="row_right_600">
-                                        <div class="row_title">
-                                            <a href="/a/all/develop/ziyuan/2013/0620/1616.html" target="_blank">
-                                            Firefox OS(B2G)开发者资料资源网站收集贴</a></div>
-                                        <div class="row_desc">
-                                            <div class="star" style=" margin-left:40px;">
-                                                <div class="star1"></div>
-                                                <div class="star2"></div>
-                                                <div class="starnum">4.5</div>
-                                            </div>
-                                            简介：Firefox OS(B2G)开发者资料资源网站收集贴-魔智网Firefox OS技术资源为您提供火狐OS手机ROM应用软件游戏下载，分享firefox os手机平板root刷机教程，火狐firefox手机平板系统机型教程资讯等。...
-                                        </div>
-                                    </div>
-                                </div><div class="row">
-                                    <div class="row_left_128">
-                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/develop/ziyuan/2013/0620/1611.html')"  title="阅读全文" ></div>
-										<img src='/templets/new/images/none.jpg' width=108 height=108 />
-                                    </div>
-                                    <div class="row_right_600">
-                                        <div class="row_title">
-                                            <a href="/a/all/develop/ziyuan/2013/0620/1611.html" target="_blank">
-                                            在Windows/Mac/Linux上远程模拟firefox/android设备</a></div>
-                                        <div class="row_desc">
-                                            <div class="star" style=" margin-left:40px;">
-                                                <div class="star1"></div>
-                                                <div class="star2"></div>
-                                                <div class="starnum">4.5</div>
-                                            </div>
-                                            简介：在Windows/Mac/Linux上远程模拟firefox/android设备-魔智网Firefox OS技术资源为您提供火狐OS手机ROM应用软件游戏下载，分享firefox os手机平板root刷机教程，火狐firefox手机平板系统机型教程资讯等...
-                                        </div>
-                                    </div>
-                                </div><div class="row">
-                                    <div class="row_left_128">
-                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/develop/ziyuan/2013/0620/1630.html')"  title="阅读全文" ></div>
-										<img src='/templets/new/images/none.jpg' width=108 height=108 />
-                                    </div>
-                                    <div class="row_right_600">
-                                        <div class="row_title">
-                                            <a href="/a/all/develop/ziyuan/2013/0620/1630.html" target="_blank">
-                                            Github上分享的firefox os平板电脑Gaia源码分支</a></div>
-                                        <div class="row_desc">
-                                            <div class="star" style=" margin-left:40px;">
-                                                <div class="star1"></div>
-                                                <div class="star2"></div>
-                                                <div class="starnum">4.5</div>
-                                            </div>
-                                            简介：Github上分享的firefox os平板电脑Gaia源码分支-魔智网Firefox OS技术资源为您提供火狐OS手机ROM应用软件游戏下载，分享firefox os手机平板root刷机教程，火狐firefox手机平板系统机型教程资讯等...
-                                        </div>
-                                    </div>
-                                </div><div class="row">
-                                    <div class="row_left_128">
-                                        <div class="rounded_108_FFFFFF" onclick="window.open('/a/all/develop/ziyuan/2013/0620/1614.html')"  title="阅读全文" ></div>
-										<img src='/templets/new/images/none.jpg' width=108 height=108 />
-                                    </div>
-                                    <div class="row_right_600">
-                                        <div class="row_title">
-                                            <a href="/a/all/develop/ziyuan/2013/0620/1614.html" target="_blank">
-                                            Firefox OS系统架构（B2G架构）简析</a></div>
-                                        <div class="row_desc">
-                                            <div class="star" style=" margin-left:40px;">
-                                                <div class="star1"></div>
-                                                <div class="star2"></div>
-                                                <div class="starnum">4.5</div>
-                                            </div>
-                                            简介：Firefox OS系统架构（B2G架构）简析-魔智网Firefox OS技术资源为您提供火狐OS手机ROM应用软件游戏下载，分享firefox os手机平板root刷机教程，火狐firefox手机平板系统机型教程资讯等。...
-                                        </div>
-                                    </div>
-                                </div>
+                            
                         <style type="text/css">
                             .page a{ border-width:0px;}
                         </style>
                         <div class="page" >
 <div id="ctl00_ContentPlaceHolder1_AspNetPager" align="center">
-<li><span class="pageinfo">共 <strong>1</strong>页<strong>5</strong>条记录</span></li>
+<li><span class="pageinfo">共 <strong>0</strong>页<strong>0</strong>条记录</span></li>
 
 </div>
                         </div>
