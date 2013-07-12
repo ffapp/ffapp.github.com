@@ -56,7 +56,8 @@
                         常用应用分类</div>
                     <div class="list">
                         <div class="tabs" id="b_tabs">
-									
+									<div class="tab2" id="2" onmousemove="showcategory('2',this,'b');" onclick="window.open('http://www.ffapp.info/a/all/app/');">
+                                        全部应用</div>
 									{dede:channel type='son' row='20' typeid='2'}
 									<div class="tab2" id="[field:id/]" onmousemove="showcategory('[field:id/]',this,'b');" onclick="window.open('[field:typeurl/]');">
                                         [field:typename/]</div>
@@ -65,6 +66,35 @@
                                 <a href="#" target="_blank">更多分类</a></div>-->
                         </div>
                         <div class="appboxs" id="b_applist">
+
+							<div class="applist" id='category_2'>
+									{dede:arclist titlelen='60' row='8' typeid='2' addfields='softrank,accredit' infolen='116'}
+                                                <div class="item">
+                                                    <div class="star">
+                                                        <div class="star1"></div>
+                                                        <div class="star2"></div>
+                                                        <div class="starnum">[field:softrank function='GetRankStar(@me)'/]</div>
+                                                    </div>
+                                                    <div class="btndetails" onclick="window.open('[field:arcurl/]')"></div>
+                                                    <div class="row1">
+                                                        <div class="img">
+                                                            <div class="rounded_67_FFFFFF" onclick="window.open('[field:arcurl/]')" alt="[field:title/]" >
+                                                            </div>
+                                                            <img src="[field:litpic/]" alt="[field:title/]" title="[field:title/]" 
+                                                                width="67px" height="67px"/>
+                                                        </div>
+                                                        <div class="info">
+                                                            <a href="[field:arcurl/]" target="_blank">
+                                                                [field:title/]</a><br />
+                                                            星级：[field:softrank function='GetRankStar(@me)'/]<br />
+                                                            价格：<span class="fee">[field:accredit/]</span>
+                                                        </div>
+                                                    </div>
+                                                    <div class="row2">[field:info/]...</div>
+                                                </div>
+                                             {/dede:arclist}
+                                    </div>
+
 									{dede:channelartlist  typeid='2'}
                                     <div class="applist" id='category_{dede:field name='id'/}'>
 									{dede:arclist titlelen='60' row='8' addfields='softrank,accredit' infolen='116'}
