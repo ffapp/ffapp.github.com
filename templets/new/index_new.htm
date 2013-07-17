@@ -68,10 +68,9 @@ document.write('<embed src="{dede:global.cfg_templeturl /}/default/images/bcastr
   </div>
   <!-- /flashnews -->
   <div class="box3">
-{dede:arclist flag='a' row='2'}
-	<h2><a href="[field:arcurl/]" target="_blank"  title="[field:title/]" >
-			[field:title/]</a></h2>
-	<p>[field:description/]</p>
+{dede:arclist flag='h' row='2'}
+	<h2><a href="[field:arcurl/]" target="_blank"  title="[field:title/]" >[field:title/]</a></h2>
+	<p style="color:#ccc;font-size:14px;">[field:description/]</p>
 {/dede:arclist}
 
   </div>
