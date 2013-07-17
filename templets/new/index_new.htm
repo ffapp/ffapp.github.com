@@ -68,13 +68,15 @@ document.write('<embed src="{dede:global.cfg_templeturl /}/default/images/bcastr
   </div>
   <!-- /flashnews -->
 <div class="box3">
-{dede:arclist sort='hot' titlelen=38 row=10 typeid=33 }
+<div class="list" id="b_tabbox1">
+                        {dede:arclist sort='hot' titlelen=38 row=10 typeid=33 }
                                 <div class="brow">
                                     <div class="num">
                                         [field:click/]</div>
                                     <a href="[field:arcurl/]" target="_blank"  title="[field:title/]" >
                                         [field:title/]</a></div>
                             {/dede:arclist}
+                    </div>
 </div>
 </div>
 
