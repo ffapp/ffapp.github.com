@@ -28,13 +28,13 @@
         <div class="appbox_border">
 		<div class="appbox">
 <!-- /bignews -->
-  <div class="flashnews box2">
+  <div class="flashnews box3">
    <!-- size: 280px * 192px -->
    <script language='javascript'>
 linkarr = new Array();
 picarr = new Array();
 textarr = new Array();
-var swf_width=300;
+var swf_width=270;
 var swf_height=300;
 //文字颜色|文字位置|文字背景颜色|文字背景透明度|按键文字颜色|按键默认颜色|按键当前颜色|自动播放时间|图片过渡效果|是否显示按钮|打开方式
 var configtg='0xffffff|0|0x3FA61F|5|0xffffff|0xC5DDBC|0x000033|2|3|1|_blank';
@@ -67,6 +67,14 @@ document.write('<embed src="{dede:global.cfg_templeturl /}/default/images/bcastr
 </script>
   </div>
   <!-- /flashnews -->
+  <div class="box3">
+{dede:arclist flag='a' row='2'}
+	<h2><a href="[field:arcurl/]" target="_blank"  title="[field:title/]" >
+			[field:title/]</a></h2>
+	<p>[field:description/]</p>
+{/dede:arclist}
+
+  </div>
 <div class="box3">
 <div class="list" id="b_tabbox1">
                         {dede:arclist sort='hot' titlelen=38 row=10 typeid=33 }
